@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Checks and Balances icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a5276"/>
+      <stop offset="100%" stop-color="#27ae60"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M32 14v10"/>
+    <path d="M18 24h28"/>
+    <path d="M32 24v20"/>
+    <path d="M22 24l-7 8h14l-7-8z"/>
+    <path d="M42 24l-7 8h14l-7-8z"/>
+    <path d="M22 32v4"/>
+    <path d="M42 32v4"/>
+    <path d="M20 44h24"/>
+    <path d="M24 50h16"/>
+  </g>
+</svg>

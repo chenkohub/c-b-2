@@ -1,0 +1,760 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "executive-power",
+      "label": "Executive Power"
+    },
+    {
+      "id": "administrative-state",
+      "label": "Administrative State"
+    },
+    {
+      "id": "federalism",
+      "label": "Federalism"
+    },
+    {
+      "id": "foreign-affairs",
+      "label": "Foreign Affairs"
+    },
+    {
+      "id": "democracy-justiciability",
+      "label": "Democracy & Justiciability"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "youngstown-steel-seizure",
+      "scenarioId": "youngstown-steel-seizure",
+      "regionId": "executive-power",
+      "x": 8,
+      "y": 12.0,
+      "requiresAll": [],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath",
+        "entry"
+      ]
+    },
+    {
+      "id": "scenario_006",
+      "scenarioId": "scenario_006",
+      "regionId": "executive-power",
+      "x": 12,
+      "y": 18.9,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_007",
+      "scenarioId": "scenario_007",
+      "regionId": "executive-power",
+      "x": 16,
+      "y": 25.8,
+      "requiresAll": [
+        "scenario_006"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_008",
+      "scenarioId": "scenario_008",
+      "regionId": "executive-power",
+      "x": 10,
+      "y": 32.7,
+      "requiresAll": [
+        "scenario_007"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "youngstown-full-analysis",
+      "scenarioId": "youngstown-full-analysis",
+      "regionId": "executive-power",
+      "x": 14,
+      "y": 39.6,
+      "requiresAll": [
+        "scenario_007",
+        "scenario_008"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 4,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "scenario_009",
+      "scenarioId": "scenario_009",
+      "regionId": "executive-power",
+      "x": 8,
+      "y": 46.5,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_010",
+      "scenarioId": "scenario_010",
+      "regionId": "executive-power",
+      "x": 12,
+      "y": 53.5,
+      "requiresAll": [
+        "scenario_009"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_011",
+      "scenarioId": "scenario_011",
+      "regionId": "executive-power",
+      "x": 16,
+      "y": 60.4,
+      "requiresAll": [
+        "scenario_010"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "presidential-immunity-framework",
+      "scenarioId": "presidential-immunity-framework",
+      "regionId": "executive-power",
+      "x": 10,
+      "y": 67.3,
+      "requiresAll": [
+        "scenario_010",
+        "scenario_011"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "removal-independent-agency-head",
+      "scenarioId": "removal-independent-agency-head",
+      "regionId": "executive-power",
+      "x": 14,
+      "y": 74.2,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "removal-multi-member-commission",
+      "scenarioId": "removal-multi-member-commission",
+      "regionId": "executive-power",
+      "x": 8,
+      "y": 81.1,
+      "requiresAll": [
+        "removal-independent-agency-head"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "seila-law-deep-dive",
+      "scenarioId": "seila-law-deep-dive",
+      "regionId": "executive-power",
+      "x": 12,
+      "y": 88.0,
+      "requiresAll": [
+        "removal-multi-member-commission"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 6,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "ins-v-chadha-legislative-veto",
+      "scenarioId": "ins-v-chadha-legislative-veto",
+      "regionId": "administrative-state",
+      "x": 27,
+      "y": 12.0,
+      "requiresAll": [
+        "youngstown-steel-seizure"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_016",
+      "scenarioId": "scenario_016",
+      "regionId": "administrative-state",
+      "x": 31,
+      "y": 21.5,
+      "requiresAll": [
+        "ins-v-chadha-legislative-veto"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_017",
+      "scenarioId": "scenario_017",
+      "regionId": "administrative-state",
+      "x": 35,
+      "y": 31.0,
+      "requiresAll": [
+        "scenario_016"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_018",
+      "scenarioId": "scenario_018",
+      "regionId": "administrative-state",
+      "x": 29,
+      "y": 40.5,
+      "requiresAll": [
+        "scenario_017"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "nondelegation-intelligible-principle",
+      "scenarioId": "nondelegation-intelligible-principle",
+      "regionId": "administrative-state",
+      "x": 33,
+      "y": 50.0,
+      "requiresAll": [
+        "ins-v-chadha-legislative-veto"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_014",
+      "scenarioId": "scenario_014",
+      "regionId": "administrative-state",
+      "x": 27,
+      "y": 59.5,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_015",
+      "scenarioId": "scenario_015",
+      "regionId": "administrative-state",
+      "x": 31,
+      "y": 69.0,
+      "requiresAll": [
+        "scenario_014"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "scenario_019",
+      "scenarioId": "scenario_019",
+      "regionId": "administrative-state",
+      "x": 35,
+      "y": 78.5,
+      "requiresAll": [],
+      "requiresAny": [
+        "scenario_018",
+        "scenario_015"
+      ],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_020",
+      "scenarioId": "scenario_020",
+      "regionId": "administrative-state",
+      "x": 29,
+      "y": 88.0,
+      "requiresAll": [
+        "scenario_019"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "spending-clause-coercion",
+      "scenarioId": "spending-clause-coercion",
+      "regionId": "federalism",
+      "x": 46,
+      "y": 12.0,
+      "requiresAll": [
+        "nondelegation-intelligible-principle"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_024",
+      "scenarioId": "scenario_024",
+      "regionId": "federalism",
+      "x": 50,
+      "y": 20.4,
+      "requiresAll": [
+        "spending-clause-coercion"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_025",
+      "scenarioId": "scenario_025",
+      "regionId": "federalism",
+      "x": 54,
+      "y": 28.9,
+      "requiresAll": [
+        "scenario_024"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_021",
+      "scenarioId": "scenario_021",
+      "regionId": "federalism",
+      "x": 48,
+      "y": 37.3,
+      "requiresAll": [
+        "spending-clause-coercion"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_022",
+      "scenarioId": "scenario_022",
+      "regionId": "federalism",
+      "x": 52,
+      "y": 45.8,
+      "requiresAll": [
+        "scenario_021"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_023",
+      "scenarioId": "scenario_023",
+      "regionId": "federalism",
+      "x": 46,
+      "y": 54.2,
+      "requiresAll": [
+        "scenario_022"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "scenario_026",
+      "scenarioId": "scenario_026",
+      "regionId": "federalism",
+      "x": 50,
+      "y": 62.7,
+      "requiresAll": [],
+      "requiresAny": [
+        "scenario_025",
+        "scenario_023"
+      ],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_027",
+      "scenarioId": "scenario_027",
+      "regionId": "federalism",
+      "x": 54,
+      "y": 71.1,
+      "requiresAll": [
+        "scenario_026"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "dormant-commerce-clause-flow-control",
+      "scenarioId": "dormant-commerce-clause-flow-control",
+      "regionId": "federalism",
+      "x": 48,
+      "y": 79.6,
+      "requiresAll": [
+        "scenario_027"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "federal-preemption-cannabis",
+      "scenarioId": "federal-preemption-cannabis",
+      "regionId": "federalism",
+      "x": 52,
+      "y": 88.0,
+      "requiresAll": [],
+      "requiresAny": [
+        "scenario_026",
+        "dormant-commerce-clause-flow-control"
+      ],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_028",
+      "scenarioId": "scenario_028",
+      "regionId": "foreign-affairs",
+      "x": 65,
+      "y": 12.0,
+      "requiresAll": [
+        "scenario_026"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_029",
+      "scenarioId": "scenario_029",
+      "regionId": "foreign-affairs",
+      "x": 69,
+      "y": 31.0,
+      "requiresAll": [
+        "scenario_028"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_030",
+      "scenarioId": "scenario_030",
+      "regionId": "foreign-affairs",
+      "x": 73,
+      "y": 50.0,
+      "requiresAll": [
+        "scenario_029"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_031",
+      "scenarioId": "scenario_031",
+      "regionId": "foreign-affairs",
+      "x": 67,
+      "y": 69.0,
+      "requiresAll": [
+        "scenario_030"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": []
+    },
+    {
+      "id": "scenario_032",
+      "scenarioId": "scenario_032",
+      "regionId": "foreign-affairs",
+      "x": 71,
+      "y": 88.0,
+      "requiresAll": [
+        "scenario_029"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "scenario_033",
+      "scenarioId": "scenario_033",
+      "regionId": "democracy-justiciability",
+      "x": 82,
+      "y": 12.0,
+      "requiresAll": [
+        "scenario_032"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "equal-protection-scrutiny-framework",
+      "scenarioId": "equal-protection-scrutiny-framework",
+      "regionId": "democracy-justiciability",
+      "x": 86,
+      "y": 50.0,
+      "requiresAll": [
+        "scenario_033"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    },
+    {
+      "id": "disparate-impact-intent-framework",
+      "scenarioId": "disparate-impact-intent-framework",
+      "regionId": "democracy-justiciability",
+      "x": 90,
+      "y": 88.0,
+      "requiresAll": [
+        "equal-protection-scrutiny-framework"
+      ],
+      "requiresAny": [],
+      "requiresMinStarsInRegion": 0,
+      "tags": [
+        "mainPath"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "scenario_006"
+    },
+    {
+      "from": "scenario_006",
+      "to": "scenario_007"
+    },
+    {
+      "from": "scenario_007",
+      "to": "scenario_008"
+    },
+    {
+      "from": "scenario_007",
+      "to": "youngstown-full-analysis"
+    },
+    {
+      "from": "scenario_008",
+      "to": "youngstown-full-analysis"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "scenario_009"
+    },
+    {
+      "from": "scenario_009",
+      "to": "scenario_010"
+    },
+    {
+      "from": "scenario_010",
+      "to": "scenario_011"
+    },
+    {
+      "from": "scenario_010",
+      "to": "presidential-immunity-framework"
+    },
+    {
+      "from": "scenario_011",
+      "to": "presidential-immunity-framework"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "removal-independent-agency-head"
+    },
+    {
+      "from": "removal-independent-agency-head",
+      "to": "removal-multi-member-commission"
+    },
+    {
+      "from": "removal-multi-member-commission",
+      "to": "seila-law-deep-dive"
+    },
+    {
+      "from": "youngstown-steel-seizure",
+      "to": "ins-v-chadha-legislative-veto"
+    },
+    {
+      "from": "ins-v-chadha-legislative-veto",
+      "to": "scenario_016"
+    },
+    {
+      "from": "scenario_016",
+      "to": "scenario_017"
+    },
+    {
+      "from": "scenario_017",
+      "to": "scenario_018"
+    },
+    {
+      "from": "ins-v-chadha-legislative-veto",
+      "to": "nondelegation-intelligible-principle"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "scenario_014"
+    },
+    {
+      "from": "scenario_014",
+      "to": "scenario_015"
+    },
+    {
+      "from": "scenario_018",
+      "to": "scenario_019"
+    },
+    {
+      "from": "scenario_015",
+      "to": "scenario_019"
+    },
+    {
+      "from": "scenario_019",
+      "to": "scenario_020"
+    },
+    {
+      "from": "nondelegation-intelligible-principle",
+      "to": "spending-clause-coercion"
+    },
+    {
+      "from": "spending-clause-coercion",
+      "to": "scenario_024"
+    },
+    {
+      "from": "scenario_024",
+      "to": "scenario_025"
+    },
+    {
+      "from": "spending-clause-coercion",
+      "to": "scenario_021"
+    },
+    {
+      "from": "scenario_021",
+      "to": "scenario_022"
+    },
+    {
+      "from": "scenario_022",
+      "to": "scenario_023"
+    },
+    {
+      "from": "scenario_025",
+      "to": "scenario_026"
+    },
+    {
+      "from": "scenario_023",
+      "to": "scenario_026"
+    },
+    {
+      "from": "scenario_026",
+      "to": "scenario_027"
+    },
+    {
+      "from": "scenario_027",
+      "to": "dormant-commerce-clause-flow-control"
+    },
+    {
+      "from": "scenario_026",
+      "to": "federal-preemption-cannabis"
+    },
+    {
+      "from": "dormant-commerce-clause-flow-control",
+      "to": "federal-preemption-cannabis"
+    },
+    {
+      "from": "scenario_026",
+      "to": "scenario_028"
+    },
+    {
+      "from": "scenario_028",
+      "to": "scenario_029"
+    },
+    {
+      "from": "scenario_029",
+      "to": "scenario_030"
+    },
+    {
+      "from": "scenario_030",
+      "to": "scenario_031"
+    },
+    {
+      "from": "scenario_029",
+      "to": "scenario_032"
+    },
+    {
+      "from": "scenario_032",
+      "to": "scenario_033"
+    },
+    {
+      "from": "scenario_033",
+      "to": "equal-protection-scrutiny-framework"
+    },
+    {
+      "from": "equal-protection-scrutiny-framework",
+      "to": "disparate-impact-intent-framework"
+    }
+  ],
+  "mainPath": [
+    "youngstown-steel-seizure",
+    "ins-v-chadha-legislative-veto",
+    "nondelegation-intelligible-principle",
+    "spending-clause-coercion",
+    "scenario_021",
+    "scenario_026",
+    "scenario_028",
+    "scenario_029",
+    "scenario_032",
+    "scenario_033",
+    "equal-protection-scrutiny-framework",
+    "disparate-impact-intent-framework"
+  ]
+}

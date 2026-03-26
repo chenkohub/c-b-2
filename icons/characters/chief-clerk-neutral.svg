@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Chief Clerk neutral">
+  <rect width="100" height="100" rx="18" fill="#5b7cfa" />
+  <circle cx="50" cy="44" r="24" fill="#f2d2b6" />
+  <path d="M26 33 C32 18 68 18 74 33 L74 38 C67 31 33 31 26 38 Z" fill="#1f2933" />
+  <circle cx="41" cy="47" r="3.5" fill="#1f2933" />
+  <circle cx="59" cy="47" r="3.5" fill="#1f2933" />
+  <line x1="42" y1="70" x2="58" y2="70" stroke="#1f2933" stroke-width="4" stroke-linecap="round" />
+  <rect x="28" y="72" width="44" height="18" rx="9" fill="#e5eef8" />
+  <path d="M35 72 L50 55 L65 72 Z" fill="#f7fafc" />
+</svg>

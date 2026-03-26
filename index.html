@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Checks &amp; Balances: The Simulation</title>
+  <meta
+    name="description"
+    content="An interactive constitutional law simulation game covering separation of powers, federalism, and structural constitutional law."
+  />
+  <meta name="theme-color" content="#1a5276" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Checks &amp; Balances" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link sr-only">Skip to main content</a>
+  <div id="aria-live-region" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <header class="app-shell-header">
+    <div class="app-branding">
+      <span class="app-branding-icon" aria-hidden="true">⚖️</span>
+      <div>
+        <strong>Checks &amp; Balances</strong>
+        <span>Career Mode</span>
+      </div>
+    </div>
+    <nav class="app-nav" aria-label="Primary">
+      <button class="app-nav-link" type="button" data-route="home" aria-current="page">Home</button>
+      <button class="app-nav-link" type="button" data-route="campaign">Campaign</button>
+      <button class="app-nav-link" type="button" data-route="library">Library</button>
+      <button class="app-nav-link" type="button" data-route="dashboard">My Progress</button>
+      <button class="app-nav-link" type="button" data-route="codex">Codex</button>
+    </nav>
+    <button
+      id="dark-mode-toggle"
+      class="btn btn-icon dark-mode-toggle"
+      aria-label="Toggle dark mode"
+      title="Toggle dark mode"
+      type="button"
+    >
+      🌙
+    </button>
+  </header>
+
+  <main id="main-content" tabindex="-1" class="app-main">
+    <section id="landing-screen" class="screen active" aria-hidden="false" aria-labelledby="landing-title">
+      <div class="home-hero surface-card">
+        <div>
+          <h1 id="landing-title" class="game-title">
+            <span class="title-icon" aria-hidden="true">⚖️</span>
+            Checks &amp; Balances
+            <span class="title-subtitle">THE SIMULATION</span>
+          </h1>
+          <p class="game-tagline landing-description">
+            Build a constitutional-law career across executive power, federalism, foreign affairs,
+            and structural constitutional doctrine. Unlock the campaign map, earn stars, and master the codex.
+          </p>
+        </div>
+        <div class="home-hero-stats">
+          <div class="hero-stat">
+            <span>Level</span>
+            <strong id="home-level-value">1</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Streak</span>
+            <strong id="home-streak-value">0 days</strong>
+          </div>
+          <div class="hero-stat">
+            <span>Complete</span>
+            <strong id="home-completion-value">0%</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-grid">
+        <article class="surface-card home-continue-card">
+          <div class="card-heading-row">
+            <h2>Continue Campaign</h2>
+            <span class="pill-label">Recommended</span>
+          </div>
+          <p id="home-continue-copy">Node: The Steel Seizure Crisis</p>
+          <p id="home-continue-progress" class="muted-copy">0% map complete</p>
+          <button id="continue-campaign-btn" class="btn btn-primary btn-lg" type="button">Continue Campaign</button>
+        </article>
+
+        <article class="surface-card quick-start-card">
+          <div class="card-heading-row">
+            <h2>Quick Start</h2>
+            <span class="pill-label">Classic modes</span>
+          </div>
+          <div class="selectors-panel" aria-labelledby="mode-settings-heading">
+            <h3 id="mode-settings-heading" class="sr-only">Game settings</h3>
+            <div class="selectors-row">
+              <div class="selector-group">
+                <label for="difficulty-select" class="selector-label">Difficulty</label>
+                <select id="difficulty-select" class="selector" aria-describedby="mode-description">
+                  <option value="all" selected>All Levels</option>
+                  <option value="easy">Easy</option>
+                  <option value="medium">Medium</option>
+                  <option value="hard">Hard</option>
+                </select>
+              </div>
+              <div class="selector-group">
+                <label for="mode-select" class="selector-label">Mode</label>
+                <select id="mode-select" class="selector" aria-describedby="mode-description">
+                  <option value="standard" selected>Standard</option>
+                  <option value="examPrep">Exam Prep</option>
+                  <option value="campaign">Campaign Queue</option>
+                </select>
+              </div>
+              <div id="timer-group" class="selector-group hidden">
+                <label for="timer-select" class="selector-label">Time Limit</label>
+                <select id="timer-select" class="selector">
+                  <option value="30">30 Minutes</option>
+                  <option value="60" selected>60 Minutes</option>
+                  <option value="90">90 Minutes</option>
+                </select>
+              </div>
+            </div>
+            <p id="mode-description" class="mode-description" aria-live="polite"></p>
+          </div>
+          <div class="landing-actions">
+            <button id="begin-btn" class="btn btn-primary btn-lg" aria-label="Begin the simulation" type="button">
+              Begin Simulation
+            </button>
+            <button id="my-progress-btn" class="btn btn-secondary btn-lg" aria-label="Open the performance dashboard" type="button">
+              My Progress
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="home-secondary-grid">
+        <div class="surface-card nav-tiles-card">
+          <h2>Explore</h2>
+          <div class="nav-tiles">
+            <button id="open-map-btn" class="nav-tile" type="button">Scenario Map</button>
+            <button id="open-library-btn" class="nav-tile" type="button">Library</button>
+            <button id="open-codex-btn" class="nav-tile" type="button">Codex</button>
+            <button class="nav-tile" type="button" data-route="dashboard">My Progress</button>
+          </div>
+        </div>
+
+        <div class="surface-card summary-card-home">
+          <h2>Recent Summary</h2>
+          <p id="home-achievement-summary">No achievements earned yet.</p>
+          <p id="home-run-summary" class="muted-copy">Complete your first scenario to start the campaign record.</p>
+        </div>
+
+        <div id="home-mentor-panel" class="surface-card mentor-panel"></div>
+      </div>
+    </section>
+
+    <section id="map-screen" class="screen hidden" aria-hidden="true" aria-labelledby="map-screen-title">
+      <div class="map-layout">
+        <aside class="surface-card map-sidebar">
+          <div class="card-heading-row">
+            <h2 id="map-screen-title">Campaign Map</h2>
+            <span id="map-summary-count" class="pill-label">0/39 complete</span>
+          </div>
+          <p class="muted-copy">Progress through the doctrine map. Official clears award stars, XP, and unlock downstream nodes.</p>
+          <ul id="map-region-list" class="region-legend"></ul>
+          <div class="map-legend-key">
+            <span><i class="legend-dot legend-dot-locked"></i> Locked</span>
+            <span><i class="legend-dot legend-dot-unlocked"></i> Unlocked</span>
+            <span><i class="legend-dot legend-dot-mastered"></i> Mastered</span>
+          </div>
+        </aside>
+
+        <section class="surface-card map-canvas-card">
+          <div id="map-canvas" class="map-canvas">
+            <svg id="map-svg-layer" class="map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+            <div id="map-node-layer" class="map-node-layer"></div>
+          </div>
+        </section>
+
+        <aside class="surface-card map-detail-panel">
+          <div class="card-heading-row">
+            <h2 id="map-selected-title">Select a node</h2>
+            <span id="map-practice-only-label" class="pill-label hidden"></span>
+          </div>
+          <p id="map-selected-meta" class="muted-copy">Doctrine · Branch · Difficulty</p>
+          <div class="detail-stat-grid">
+            <div>
+              <span>Status</span>
+              <strong id="map-selected-status">Locked</strong>
+            </div>
+            <div>
+              <span>Stars</span>
+              <strong id="map-selected-stars">☆☆☆</strong>
+            </div>
+          </div>
+          <p id="map-selected-rewards" class="muted-copy">Rewards: XP + stars + unlock progress</p>
+          <p id="map-selected-hint" class="mentor-inline-copy">Choose a node to see details.</p>
+          <div class="detail-actions">
+            <button id="map-play-btn" class="btn btn-primary" type="button">Play</button>
+            <button id="map-view-library-btn" class="btn btn-secondary" type="button">View in Library</button>
+          </div>
+          <div id="map-mentor-panel" class="mentor-panel compact"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="library-screen" class="screen hidden" aria-hidden="true" aria-labelledby="library-title">
+      <div class="surface-card library-shell">
+        <div class="card-heading-row">
+          <div>
+            <h2 id="library-title">Scenario Library</h2>
+            <p id="library-result-count" class="muted-copy">0 scenarios</p>
+          </div>
+          <label class="toggle-row" for="library-sandbox-toggle">
+            <span>Sandbox</span>
+            <input id="library-sandbox-toggle" type="checkbox" />
+          </label>
+        </div>
+
+        <div class="library-filters">
+          <input id="library-search" class="library-filter" type="search" placeholder="Search title or doctrine" />
+          <select id="library-branch-filter" class="library-filter">
+            <option value="all">All branches</option>
+            <option value="judiciary">Judiciary</option>
+            <option value="congress">Congress</option>
+            <option value="president">President</option>
+          </select>
+          <select id="library-doctrine-filter" class="library-filter">
+            <option value="all">All doctrines</option>
+          </select>
+          <select id="library-difficulty-filter" class="library-filter">
+            <option value="all">All difficulties</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <select id="library-status-filter" class="library-filter">
+            <option value="all">All statuses</option>
+            <option value="unlocked">Unlocked</option>
+            <option value="completed">Completed</option>
+            <option value="mastered">Mastered</option>
+            <option value="locked">Locked</option>
+          </select>
+          <select id="library-sort" class="library-filter">
+            <option value="title">Sort: Title</option>
+            <option value="doctrine">Sort: Doctrine</option>
+            <option value="bestScore">Sort: Best score</option>
+            <option value="recentlyPlayed">Sort: Recently played</option>
+          </select>
+        </div>
+
+        <div class="library-layout">
+          <div id="library-card-grid" class="library-card-grid"></div>
+          <aside id="library-mentor-panel" class="mentor-panel compact"></aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="dashboard-screen" class="screen hidden" aria-hidden="true" aria-labelledby="dashboard-title">
+      <div class="dashboard-shell">
+        <header class="dashboard-header">
+          <div>
+            <h2 id="dashboard-title" class="dashboard-title">My Progress</h2>
+            <p class="dashboard-subtitle">Track XP, completion, doctrine mastery, badges, and recent sessions.</p>
+          </div>
+          <button id="dashboard-back-btn" class="btn btn-secondary" type="button">Back to Home</button>
+        </header>
+
+        <div id="dashboard-empty-state"></div>
+
+        <div id="dashboard-content" class="hidden">
+          <section class="dashboard-summary-grid" aria-label="Performance summary">
+            <article class="summary-card">
+              <span class="summary-card-label">Profile</span>
+              <strong id="dashboard-level" class="summary-card-value">Level 1</strong>
+              <span id="dashboard-xp" class="muted-copy">0 XP</span>
+              <div class="xp-meter"><span id="dashboard-xp-bar" class="xp-meter-fill"></span></div>
+            </article>
+            <article class="summary-card">
+              <span class="summary-card-label">Current Streak</span>
+              <strong id="dashboard-current-streak" class="summary-card-value">0-day streak</strong>
+            </article>
+            <article class="summary-card">
+              <span class="summary-card-label">Completion</span>
+              <strong id="dashboard-completion-percent" class="summary-card-value">0/39 scenarios complete</strong>
+            </article>
+            <article class="summary-card compatibility-hidden">
+              <span class="summary-card-label">Total Sessions</span>
+              <strong id="dashboard-total-sessions" class="summary-card-value">0</strong>
+              <span id="dashboard-average-score">0%</span>
+              <span id="dashboard-best-score">0%</span>
+            </article>
+          </section>
+
+          <div class="dashboard-grid">
+            <section class="dashboard-panel" aria-labelledby="doctrine-breakdown-heading">
+              <h3 id="doctrine-breakdown-heading">Doctrine Mastery</h3>
+              <div id="dashboard-doctrine-breakdown" class="doctrine-breakdown"></div>
+            </section>
+
+            <section class="dashboard-panel" aria-labelledby="achievements-heading">
+              <h3 id="achievements-heading">Recent Achievements</h3>
+              <div id="dashboard-achievements-grid" class="achievement-grid"></div>
+            </section>
+
+            <section class="dashboard-panel" aria-labelledby="recommendations-heading">
+              <h3 id="recommendations-heading">Recommended Next Plays</h3>
+              <div id="dashboard-recommendations" class="recommendation-grid"></div>
+            </section>
+
+            <section class="dashboard-panel" aria-labelledby="recent-activity-heading">
+              <h3 id="recent-activity-heading">Recent Activity</h3>
+              <div id="dashboard-recent-activity" class="activity-list"></div>
+            </section>
+          </div>
+
+          <div id="dashboard-mentor-panel" class="surface-card mentor-panel compact"></div>
+
+          <section class="dashboard-panel" aria-labelledby="session-history-heading">
+            <div class="dashboard-panel-header">
+              <h3 id="session-history-heading">Session History</h3>
+              <div class="dashboard-actions">
+                <button id="export-csv-btn" class="btn btn-secondary" type="button">Export CSV</button>
+                <button id="clear-history-btn" class="btn btn-secondary btn-danger-outline" type="button">Clear History</button>
+              </div>
+            </div>
+
+            <div class="dashboard-table-wrap">
+              <table class="results-table dashboard-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Mode</th>
+                    <th scope="col">Raw Score</th>
+                    <th scope="col">Percent</th>
+                    <th scope="col">Grade</th>
+                    <th scope="col">Time</th>
+                  </tr>
+                </thead>
+                <tbody id="dashboard-session-history-body"></tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="codex-screen" class="screen hidden" aria-hidden="true" aria-labelledby="codex-title">
+      <div class="surface-card codex-shell">
+        <div class="card-heading-row">
+          <div>
+            <h2 id="codex-title">Codex</h2>
+            <p class="muted-copy">Cases, doctrines, precedents, and mentor notes in one study surface.</p>
+          </div>
+        </div>
+        <div class="codex-tabs" role="tablist" aria-label="Codex tabs">
+          <button type="button" class="codex-tab is-active" data-codex-tab="cases" role="tab" aria-selected="true">Cases</button>
+          <button type="button" class="codex-tab" data-codex-tab="doctrines" role="tab" aria-selected="false">Doctrines</button>
+          <button type="button" class="codex-tab" data-codex-tab="precedents" role="tab" aria-selected="false">Precedents</button>
+          <button type="button" class="codex-tab" data-codex-tab="mentor-notes" role="tab" aria-selected="false">Mentor Notes</button>
+        </div>
+        <div id="codex-tab-panels" class="codex-panels">
+          <section class="codex-panel is-active" data-codex-panel="cases"></section>
+          <section class="codex-panel hidden" data-codex-panel="doctrines"></section>
+          <section class="codex-panel hidden" data-codex-panel="precedents"></section>
+          <section class="codex-panel hidden" data-codex-panel="mentor-notes"></section>
+        </div>
+      </div>
+    </section>
+
+    <section id="game-screen" class="screen hidden" aria-hidden="true" aria-labelledby="scenario-title">
+      <header class="game-header" role="banner">
+        <div class="header-left">
+          <span id="branch-badge" class="branch-badge branch-judiciary" aria-label="Current branch: Judiciary">
+            <span class="branch-icon" aria-hidden="true">⚖️</span>
+            Judiciary
+          </span>
+          <div id="timer-display" class="timer-display hidden" aria-live="polite" aria-atomic="true">
+            <span class="timer-icon" aria-hidden="true">⏱️</span>
+            <span id="timer-time" class="timer-time">60:00</span>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <div class="score-display" role="status" aria-live="polite" aria-atomic="true">
+            <span class="score-label">Legitimacy Points</span>
+            <span class="score-value-wrap">
+              <span class="score-icon" aria-hidden="true">⚖️</span>
+              <span id="score-value" class="score-value">0</span>
+            </span>
+          </div>
+
+          <button id="save-quit-btn" class="btn btn-secondary" aria-label="Save your session and return to the landing screen" type="button">
+            Save &amp; Quit
+          </button>
+        </div>
+      </header>
+
+      <div class="progress-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Scenario progress">
+        <div id="progress-bar" class="segmented-progress"></div>
+        <span id="progress-label" class="progress-label">Crisis 1 of 1</span>
+      </div>
+
+      <div id="timer-controls" class="timer-controls hidden" role="group" aria-label="Exam timer controls">
+        <button id="timer-pause-btn" class="btn btn-secondary" type="button">Pause Timer</button>
+        <button id="timer-resume-btn" class="btn btn-secondary hidden" type="button">Resume Timer</button>
+        <button id="timer-extend-btn" class="btn btn-secondary" type="button">Add 5 Minutes</button>
+      </div>
+
+      <div class="game-layout">
+        <section id="scenario-area" class="scenario-area" aria-labelledby="scenario-title">
+          <div class="scenario-header">
+            <h2 id="scenario-title" class="scenario-title"></h2>
+            <span id="difficulty-badge" class="difficulty-badge"></span>
+            <span id="doctrine-tag" class="doctrine-tag"></span>
+          </div>
+
+          <div id="step-indicator" class="step-indicator hidden"></div>
+          <div id="scenario-description" class="scenario-description"></div>
+          <p id="scenario-prompt" class="step-prompt"></p>
+
+          <div id="choices-container" class="choices-container" role="group" aria-label="Answer choices"></div>
+          <div id="argument-builder-container" class="argument-builder-container hidden"></div>
+          <div id="counter-argument-container" class="counter-argument-container hidden"></div>
+        </section>
+
+        <aside id="precedent-tracker" class="precedent-tracker hidden" aria-label="Campaign precedent tracker">
+          <h3 class="precedent-tracker-title">⚖️ Precedent Tracker</h3>
+          <p class="precedent-tracker-subtitle">Your earlier rulings reshape later doctrine.</p>
+          <ul class="precedent-list">
+            <li class="precedent-empty">No precedents established yet. Your decisions will shape the legal landscape.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="end-screen" class="screen hidden" aria-hidden="true" aria-labelledby="end-screen-title">
+      <div class="end-results-card">
+        <div id="results-reward-strip" class="reward-strip">
+          <div class="reward-pill">
+            <span>XP Earned</span>
+            <strong id="results-xp-earned">0</strong>
+          </div>
+          <div class="reward-pill">
+            <span>Stars</span>
+            <strong id="results-stars-earned">0</strong>
+          </div>
+          <div class="reward-pill">
+            <span>Unlocks</span>
+            <strong id="results-unlocks-earned">0</strong>
+          </div>
+          <div class="reward-pill">
+            <span>Achievements</span>
+            <strong id="results-achievements-earned">0</strong>
+          </div>
+        </div>
+
+        <div id="results-mentor-panel" class="mentor-panel compact"></div>
+
+        <h2 id="end-screen-title" class="end-heading">Simulation Complete</h2>
+
+        <div class="score-summary">
+          <div class="score-summary-item">
+            <span class="score-summary-label">Total Points</span>
+            <span id="end-total-score" class="score-summary-value">0</span>
+          </div>
+          <div class="score-summary-item">
+            <span class="score-summary-label">Max Possible</span>
+            <span id="end-max-score" class="score-summary-value">0</span>
+          </div>
+          <div class="score-summary-item">
+            <span class="score-summary-label">Percentage</span>
+            <span id="end-percentage" class="score-summary-value">0%</span>
+          </div>
+        </div>
+
+        <div id="end-grade-badge" class="grade-badge"></div>
+        <p id="end-grade-description" class="grade-description"></p>
+
+        <h3>Per-Crisis Breakdown</h3>
+        <div id="end-breakdown" class="breakdown-container"></div>
+        <div id="exam-review-container" class="exam-review-container hidden"></div>
+
+        <div class="landing-actions end-actions">
+          <button id="results-continue-campaign-btn" class="btn btn-primary btn-lg" type="button">Continue Campaign</button>
+          <button id="results-open-map-btn" class="btn btn-secondary btn-lg" type="button">Open Map</button>
+          <button id="results-open-library-btn" class="btn btn-secondary btn-lg" type="button">Open Library</button>
+          <button id="results-replay-btn" class="btn btn-secondary btn-lg" type="button">Replay</button>
+          <button id="restart-btn" class="btn btn-secondary btn-lg" type="button">Home</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="feedback-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="feedback-title">
+    <div class="feedback-panel" role="document">
+      <button class="modal-close-btn" aria-label="Close feedback dialog" id="feedback-close-btn" type="button">&times;</button>
+      <div id="feedback-content" class="feedback-content"></div>
+    </div>
+  </div>
+
+  <div id="app-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="app-modal-title">
+    <div class="feedback-panel generic-modal-panel" role="document">
+      <button class="modal-close-btn" aria-label="Close dialog" id="app-modal-close-btn" type="button">&times;</button>
+      <h2 id="app-modal-title" class="modal-title"></h2>
+      <div id="app-modal-body" class="modal-body"></div>
+      <div id="app-modal-actions" class="modal-actions"></div>
+    </div>
+  </div>
+
+  <div id="case-popup" class="case-popup hidden" role="tooltip" aria-live="polite" aria-hidden="true"></div>
+  <div id="toast-stack" class="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+  <script type="module" src="game.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch((error) => {
+          console.warn('Service worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "defaultCharacterId": "chief-clerk",
+  "characters": [
+    {
+      "id": "chief-clerk",
+      "name": "Chief Clerk",
+      "avatars": {
+        "neutral": "./icons/characters/chief-clerk-neutral.svg",
+        "happy": "./icons/characters/chief-clerk-happy.svg",
+        "concerned": "./icons/characters/chief-clerk-concerned.svg"
+      },
+      "lines": {
+        "home:new-player": [
+          "Welcome to chambers. Start with the first crisis and build your record one opinion at a time."
+        ],
+        "home:returning-player": [
+          "Your campaign is still active. The next node is ready when you are."
+        ],
+        "map:locked-node": [
+          "That path opens after you settle the earlier doctrine."
+        ],
+        "map:ready-node": [
+          "This node is cleared for argument. A solid score here opens the next branch."
+        ],
+        "dashboard:default": [
+          "Your record is taking shape. Follow the weak doctrines and your numbers will rise."
+        ],
+        "results:perfect": [
+          "That is a clean constitutional analysis."
+        ],
+        "results:weak": [
+          "Review the doctrinal hinge before attempting the next node."
+        ],
+        "results:default": [
+          "Another opinion entered into the record. Keep the through-line of the doctrine in view."
+        ],
+        "library:default": [
+          "Use the library to drill a doctrine or revisit a difficult branch."
+        ],
+        "codex:default": [
+          "The codex keeps the cases and doctrines organized. Use it before a hard replay."
+        ],
+        "home:streak": [
+          "Consistent study wins close constitutional calls. Keep the streak alive."
+        ],
+        "dashboard:achievement": [
+          "Badges are nice. Doctrinal consistency is better. Fortunately, you can build both."
+        ]
+      },
+      "mentorNotes": [
+        "Youngstown is the spine of executive power analysis: always ask what Congress has done.",
+        "For anti-commandeering, separate direct federal commands from preemption.",
+        "A hard commerce-clause question usually turns on the limiting principle, not just the government interest."
+      ]
+    }
+  ]
+}

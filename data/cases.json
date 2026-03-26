@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "marbury-v-madison",
+    "name": "Marbury v. Madison",
+    "year": 1803,
+    "citation": "5 U.S. (1 Cranch) 137 (1803)",
+    "holding": "The Supreme Court has the power of judicial review — the authority to declare acts of Congress unconstitutional and void. An executive order of mandamus may issue against an officer to compel a non-discretionary, ministerial duty. Congress cannot expand the Supreme Court's original jurisdiction beyond what Article III provides.",
+    "significance": "The foundational case of American constitutional law, establishing the judiciary as the ultimate interpreter of the Constitution. Marshall's strategic brilliance — finding the Court lacked jurisdiction while simultaneously announcing the sweeping power of judicial review — set the course for over two centuries of constitutional adjudication.",
+    "doctrineAreas": [
+      "Judicial Review",
+      "Separation of Powers",
+      "Article III Jurisdiction"
+    ],
+    "keyQuote": "It is emphatically the province and duty of the judicial department to say what the law is."
+  },
+  {
+    "id": "mcculloch-v-maryland",
+    "name": "McCulloch v. Maryland",
+    "year": 1819,
+    "citation": "17 U.S. (4 Wheat.) 316 (1819)",
+    "holding": "Congress has the power to create a national bank under the Necessary and Proper Clause, which permits Congress to employ means reasonably adapted to executing its enumerated powers. A state may not tax a federal instrumentality because the power to tax is the power to destroy.",
+    "significance": "Established that the Necessary and Proper Clause augments Congress's enumerated powers to include incidental powers necessary to their execution, and that 'necessary' means useful or convenient, not indispensable. The principle that implied powers flow from enumerated powers recurs throughout separation of powers doctrine.",
+    "doctrineAreas": [
+      "Congressional Power",
+      "Necessary and Proper Clause",
+      "Federalism",
+      "Supremacy Clause"
+    ],
+    "keyQuote": "Let the end be legitimate, let it be within the scope of the constitution, and all means which are appropriate, which are plainly adapted to that end, which are not prohibited, but consist with the letter and spirit of the constitution, are constitutional."
+  },
+  {
+    "id": "wickard-v-filburn",
+    "name": "Wickard v. Filburn",
+    "year": 1942,
+    "citation": "317 U.S. 111 (1942)",
+    "holding": "Congress may regulate homegrown wheat not intended for interstate commerce because, when aggregated with all similar activity nationwide, it substantially affects interstate commerce. The aggregation principle allows Congress to reach purely intrastate activity if the cumulative effect on commerce is substantial.",
+    "significance": "Represents the high point of Commerce Clause power and established the aggregation principle that makes it far easier to show a substantial relation to interstate commerce. Between Wickard and Lopez (1995), Congress never lost a Commerce Clause case.",
+    "doctrineAreas": [
+      "Commerce Clause",
+      "Congressional Power",
+      "Aggregation Principle"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "youngstown-v-sawyer",
+    "name": "Youngstown Sheet & Tube Co. v. Sawyer",
+    "year": 1952,
+    "citation": "343 U.S. 579 (1952)",
+    "holding": "The President's seizure of steel mills during the Korean War was not authorized by any statute or constitutional provision. Justice Jackson's concurrence established the three-category framework: presidential power is at its zenith when acting with congressional authorization (Category 1), in a zone of twilight when Congress is silent (Category 2), and at its lowest ebb when acting contrary to Congress's will (Category 3).",
+    "significance": "The foundational case for separation of powers analysis. Jackson's three-category framework is the starting point for any question involving a clash between presidential and congressional power. Frankfurter's concurrence introduced the concept of historical practice as constitutional gloss.",
+    "doctrineAreas": [
+      "Youngstown Framework",
+      "Presidential Power",
+      "Separation of Powers",
+      "Executive Orders"
+    ],
+    "keyQuote": "The framers suspected that emergency powers would tend to kindle emergencies."
+  },
+  {
+    "id": "baker-v-carr",
+    "name": "Baker v. Carr",
+    "year": 1962,
+    "citation": "369 U.S. 186 (1962)",
+    "holding": "An equal protection challenge to legislative malapportionment is justiciable and not barred by the political question doctrine. The Court identified six factors for determining whether a case presents a political question, with the first two — textual commitment to a coordinate branch and lack of judicially manageable standards — being the most important.",
+    "significance": "The classic case establishing the framework for the political question doctrine and opening the door to judicial review of redistricting under the Equal Protection Clause. Led directly to Reynolds v. Sims and the one-person-one-vote principle.",
+    "doctrineAreas": [
+      "Political Question Doctrine",
+      "Justiciability",
+      "Equal Protection",
+      "Gerrymandering"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "reynolds-v-sims",
+    "name": "Reynolds v. Sims",
+    "year": 1964,
+    "citation": "377 U.S. 533 (1964)",
+    "holding": "The Equal Protection Clause requires legislative districts to contain roughly equal populations — the one person, one vote principle. Malapportioned districts violate the Fourteenth Amendment.",
+    "significance": "Established the fundamental constitutional requirement that all legislative districts must be drawn with roughly equal populations, generating the redistricting obligation after each census and setting the stage for modern gerrymandering disputes.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gerrymandering",
+      "Voting Rights"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-nixon",
+    "name": "United States v. Nixon",
+    "year": 1974,
+    "citation": "418 U.S. 683 (1974)",
+    "holding": "The President has a constitutionally based but not absolute privilege to keep communications confidential. When the privilege is weighed against the demands of criminal justice, the balance favors the fair administration of criminal justice. Nixon was required to produce subpoenaed tapes and papers.",
+    "significance": "Established that executive privilege is implicit in the Constitution, deriving from the supremacy of each branch within its own duties, but is subject to a balancing test. Explicit presidential powers receive categorical protection; implicit powers like executive privilege are subject to interest balancing.",
+    "doctrineAreas": [
+      "Executive Privilege",
+      "Presidential Power",
+      "Separation of Powers",
+      "Balancing Test"
+    ],
+    "keyQuote": "Nowhere in the Constitution is there any explicit reference to a privilege of confidentiality, yet to the extent this interest relates to the effective discharge of a President's powers, it is constitutionally based."
+  },
+  {
+    "id": "nixon-v-fitzgerald",
+    "name": "Nixon v. Fitzgerald",
+    "year": 1982,
+    "citation": "457 U.S. 731 (1982)",
+    "holding": "A former President has absolute immunity from civil damages suits for official acts taken while in office. The immunity attaches to the President's function, not the individual.",
+    "significance": "First case to recognize absolute presidential immunity, establishing a key precedent for Trump v. United States. The distinction between official and unofficial acts became central to the immunity framework.",
+    "doctrineAreas": [
+      "Presidential Immunity",
+      "Presidential Power",
+      "Civil Liability"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "ins-v-chadha",
+    "name": "INS v. Chadha",
+    "year": 1983,
+    "citation": "462 U.S. 919 (1983)",
+    "holding": "The legislative veto is unconstitutional. When Congress acts in a way that is legislative in purpose and effect — altering the legal rights, duties, and relations of persons outside the legislative branch — it must act through bicameralism and presentment. A one-house or two-house veto that bypasses either requirement is invalid.",
+    "significance": "A landmark formalist separation of powers decision that eliminated Congress's most powerful tool for controlling administrative agencies. Justice White's functionalist dissent argued that if the Court allows delegation, it should also allow Congress to retain a veto — a tension that persists in administrative law.",
+    "doctrineAreas": [
+      "Legislative Veto",
+      "Separation of Powers",
+      "Bicameralism and Presentment",
+      "Administrative State"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "schechter-poultry-v-us",
+    "name": "A.L.A. Schechter Poultry Corp. v. United States",
+    "year": 1935,
+    "citation": "295 U.S. 495 (1935)",
+    "holding": "The National Industrial Recovery Act's delegation of authority to create industry codes violated the non-delegation doctrine because Congress gave no intelligible principle to guide executive discretion. The Act also exceeded Congress's Commerce Clause power.",
+    "significance": "One of only two statutes ever struck down on non-delegation grounds. Decided on 'Black Monday' in 1935, it represents the high-water mark of judicial resistance to FDR's New Deal. Though never followed again, the case has never been overruled and could return if the doctrine is reinvigorated.",
+    "doctrineAreas": [
+      "Non-Delegation Doctrine",
+      "Commerce Clause",
+      "Congressional Power",
+      "Administrative State"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "panama-refining-v-ryan",
+    "name": "Panama Refining Co. v. Ryan",
+    "year": 1935,
+    "citation": "293 U.S. 388 (1935)",
+    "holding": "The 'hot oil' provision of the National Industrial Recovery Act was an unconstitutional delegation of legislative power because Congress provided no guidance to the executive branch in exercising the delegated authority.",
+    "significance": "Along with Schechter Poultry, one of only two cases striking down a statute on non-delegation grounds. Together they represent the brief period in 1935 when the doctrine had real teeth — a period that conservative justices now seek to revive.",
+    "doctrineAreas": [
+      "Non-Delegation Doctrine",
+      "Congressional Power",
+      "Administrative State"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "gundy-v-us",
+    "name": "Gundy v. United States",
+    "year": 2019,
+    "citation": "588 U.S. 128 (2019)",
+    "holding": "A plurality upheld SORNA's delegation to the Attorney General to apply registration requirements to pre-Act offenders. The Court found an intelligible principle in the statutory scheme, but the decision revealed significant appetite among conservative justices to reinvigorate the non-delegation doctrine.",
+    "significance": "Signals a potential future tightening of the non-delegation doctrine. Justice Gorsuch's dissent argued Congress cannot delegate legislative power and criticized the intelligible principle test as toothless, reflecting the broader movement to expand presidential power by forcing Congress to legislate directly.",
+    "doctrineAreas": [
+      "Non-Delegation Doctrine",
+      "Administrative State",
+      "Congressional Power"
+    ],
+    "keyQuote": "Legislators might seek to take credit for addressing a social problem by sending it to the executive for resolution, while at the same time blaming the executive for the problems that attend whatever measures he chooses to pursue."
+  },
+  {
+    "id": "buckley-v-valeo",
+    "name": "Buckley v. Valeo",
+    "year": 1976,
+    "citation": "424 U.S. 1 (1976)",
+    "holding": "Individuals who exercise significant governmental authority — including enforcement power, regulation-making, and determining eligibility for funds — are 'officers of the United States' who must be appointed consistent with the Appointments Clause. Congress may not appoint executive officers.",
+    "significance": "Established the threshold test for who qualifies as an 'officer of the United States' under the Appointments Clause, a distinction that determines whether the Appointments Clause's requirements apply. The significant governmental authority standard remains the operative test.",
+    "doctrineAreas": [
+      "Appointments Clause",
+      "Separation of Powers",
+      "Officers of the United States"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "lucia-v-sec",
+    "name": "Lucia v. SEC",
+    "year": 2018,
+    "citation": "585 U.S. 237 (2018)",
+    "holding": "Administrative law judges at the SEC who make final decisions are officers of the United States and must be appointed in accordance with the Appointments Clause. The power to make final decisions — decisions that can but need not be reviewed — elevates an ALJ to officer status.",
+    "significance": "Extended the Buckley v. Valeo framework to adjudicatory officers within agencies, holding that ALJs who render decisions that can become final are officers, not mere employees. Has significant implications for the structure of administrative adjudication.",
+    "doctrineAreas": [
+      "Appointments Clause",
+      "Administrative State",
+      "Officers of the United States"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-arthrex",
+    "name": "United States v. Arthrex, Inc.",
+    "year": 2021,
+    "citation": "594 U.S. 1 (2021)",
+    "holding": "Patent judges at the PTAB who had administrative supervision but no decisional review from a superior were principal officers unconstitutionally appointed. To be an inferior officer, one must be supervised both administratively and with respect to decisions.",
+    "significance": "Refined the distinction between principal and inferior officers by requiring that inferior officers be supervised in both administrative and decisional capacities. Without decisional review, an officer is principal and must be appointed by the President with Senate confirmation.",
+    "doctrineAreas": [
+      "Appointments Clause",
+      "Principal vs. Inferior Officers",
+      "Administrative State"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "myers-v-us",
+    "name": "Myers v. United States",
+    "year": 1926,
+    "citation": "272 U.S. 52 (1926)",
+    "holding": "Congress cannot reserve to itself the right to participate in the removal of an executive officer. The statute requiring Senate consent for removing a postmaster was unconstitutional.",
+    "significance": "Established the foundational principle that Congress may not involve itself in the removal of executive officers — a principle the executive branch relies on in every removal power dispute. Distinguished from later cases addressing whether Congress can limit the President's own removal power.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Presidential Power",
+      "Separation of Powers"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "humphreys-executor-v-us",
+    "name": "Humphrey's Executor v. United States",
+    "year": 1935,
+    "citation": "295 U.S. 602 (1935)",
+    "holding": "Congress may limit the President's removal power over heads of multi-member commissions that exercise quasi-legislative and quasi-judicial functions. The FTC's for-cause removal protection was constitutional.",
+    "significance": "The foundation of the independent agency model, permitting Congress to insulate certain officers from at-will presidential removal. Currently under severe threat — the Court signaled in Trump v. Wilcox that it will likely overrule this precedent.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Independent Agencies",
+      "Administrative State",
+      "Presidential Power"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "morrison-v-olson",
+    "name": "Morrison v. Olson",
+    "year": 1988,
+    "citation": "487 U.S. 654 (1988)",
+    "holding": "Congress may restrict the President's removal of an inferior officer so long as the restriction does not 'unduly trammel' or 'impermissibly burden' the President's constitutional obligations. The independent counsel statute's for-cause removal protection was upheld 8-1.",
+    "significance": "Replaced Humphrey's Executor's rigid categories with a functionalist balancing test for removal restrictions. Justice Scalia's famous dissent — arguing executive power is indivisible and the majority's test is 'no rule at all' — has now become the ascendant view at the Court.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Independent Counsel",
+      "Separation of Powers",
+      "Formalism vs. Functionalism"
+    ],
+    "keyQuote": "This wolf comes as a wolf."
+  },
+  {
+    "id": "seila-law-v-cfpb",
+    "name": "Seila Law LLC v. Consumer Financial Protection Bureau",
+    "year": 2020,
+    "citation": "591 U.S. 197 (2020)",
+    "holding": "An independent agency headed by a single director who is insulated from presidential at-will removal violates the separation of powers. Congress cannot restrict the President's removal of a single agency head.",
+    "significance": "Extended the removal power doctrine by distinguishing single-headed agencies from multi-member commissions. Signaled the Court's trajectory toward greater presidential control over the executive branch and the potential demise of Humphrey's Executor.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Independent Agencies",
+      "Presidential Power",
+      "Unitary Executive"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "collins-v-yellen",
+    "name": "Collins v. Yellen",
+    "year": 2021,
+    "citation": "594 U.S. 220 (2021)",
+    "holding": "The Federal Housing Finance Agency's structure — a single director removable only for cause — violated the separation of powers under Seila Law. The appropriate remedy was to sever the removal restriction rather than invalidate the agency's actions.",
+    "significance": "Confirmed that Seila Law's prohibition on insulating single agency heads from presidential removal applies broadly, and established severability as the default remedy for unconstitutional removal restrictions.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Independent Agencies",
+      "Severability"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "trump-v-wilcox",
+    "name": "Trump v. Wilcox",
+    "year": 2025,
+    "citation": "604 U.S. ___ (2025)",
+    "holding": "On the emergency docket, the Court stayed lower court injunctions against the President's removal of NLRB and MSPB board members, stating that the President 'may remove without cause executive officers who exercise [executive] power on his behalf, subject to narrow exceptions recognized by our precedents.'",
+    "significance": "Signals the near-certain overruling of Humphrey's Executor and the end of the independent agency model as traditionally understood. The most significant recent development in the trend toward expanding presidential removal power.",
+    "doctrineAreas": [
+      "Removal Power",
+      "Independent Agencies",
+      "Presidential Power",
+      "Unitary Executive"
+    ],
+    "keyQuote": "Because the Constitution vests the executive power in the President, he may remove without cause executive officers who exercise that power on his behalf, subject to narrow exceptions recognized by our precedents."
+  },
+  {
+    "id": "trump-v-us",
+    "name": "Trump v. United States",
+    "year": 2024,
+    "citation": "603 U.S. 593 (2024)",
+    "holding": "The President has absolute immunity for actions involving core presidential powers, at least presumptive immunity for actions within the outer perimeter of official responsibilities (shared or twilight-zone powers), and no immunity for unofficial acts. Courts may not inquire into the President's motives, and evidence of official acts cannot be used to prosecute unofficial acts.",
+    "significance": "The most expansive presidential immunity decision in history. Justice Sotomayor's dissent argued the majority ignores the rule-of-law side of the balance and that the space for truly 'unofficial' acts may be vanishingly small. A maximalist opinion that fundamentally reshaped the law of presidential accountability.",
+    "doctrineAreas": [
+      "Presidential Immunity",
+      "Presidential Power",
+      "Separation of Powers",
+      "Core Presidential Powers"
+    ],
+    "keyQuote": "The President must be free to act with energy, vigor, and decisiveness."
+  },
+  {
+    "id": "clinton-v-jones",
+    "name": "Clinton v. Jones",
+    "year": 1997,
+    "citation": "520 U.S. 681 (1997)",
+    "holding": "A sitting President has no immunity from civil damages suits for unofficial acts — including conduct that occurred before the President took office. The Constitution does not require federal courts to stay or dismiss private civil damages actions against a sitting President.",
+    "significance": "Established that presidential immunity does not extend to unofficial or pre-presidential conduct in civil cases. Provides the contrast to Nixon v. Fitzgerald's absolute immunity for official acts and forms part of the case law matrix leading to Trump v. United States.",
+    "doctrineAreas": [
+      "Presidential Immunity",
+      "Presidential Power",
+      "Civil Liability"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-lopez",
+    "name": "United States v. Lopez",
+    "year": 1995,
+    "citation": "514 U.S. 549 (1995)",
+    "holding": "The Gun-Free School Zones Act exceeded Congress's Commerce Clause power. Possessing a gun near a school is not economic activity, cannot be aggregated, is not an essential part of a larger economic regulatory scheme, and the causal chain linking it to interstate commerce requires impermissible piling of inference upon inference.",
+    "significance": "The first case in over fifty years to strike down a federal statute under the Commerce Clause, establishing the modern three-category framework and signaling that Congress's commerce power has real limits. Ended the post-1937 era of effectively unlimited Commerce Clause authority.",
+    "doctrineAreas": [
+      "Commerce Clause",
+      "Congressional Power",
+      "Federalism",
+      "Substantial Effects Test"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-morrison",
+    "name": "United States v. Morrison",
+    "year": 2000,
+    "citation": "529 U.S. 598 (2000)",
+    "holding": "The Violence Against Women Act's civil remedy exceeded Congress's Commerce Clause power despite extensive congressional findings linking gender-motivated violence to interstate commerce. The activity was not economic, the causal chain was too attenuated, and upholding it would allow federal intrusion into the states' traditional police power over violent crime.",
+    "significance": "Confirmed that Lopez was not an anomaly and that Congress's Commerce Clause power has meaningful limits. Reinforced the distinction between economic and non-economic activity and the prohibition on piling inference upon inference.",
+    "doctrineAreas": [
+      "Commerce Clause",
+      "Congressional Power",
+      "Federalism"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "gonzales-v-raich",
+    "name": "Gonzales v. Raich",
+    "year": 2005,
+    "citation": "545 U.S. 1 (2005)",
+    "holding": "Congress may regulate purely intrastate, non-commercial activity — growing cannabis for personal medical use — if failure to regulate that class of activity would undercut the regulation of the interstate market in that commodity. The Controlled Substances Act's application to homegrown cannabis was constitutional under the 'essential part of a larger regulation' theory.",
+    "significance": "Revived Wickard v. Filburn and confirmed it remains good law despite Lopez and Morrison. Established that non-economic activity can be reached under the Commerce Clause if it is an essential part of a larger economic regulatory scheme. The 'essential part' theory does not require total scheme collapse — just a 'pretty big hole.'",
+    "doctrineAreas": [
+      "Commerce Clause",
+      "Congressional Power",
+      "Controlled Substances",
+      "Aggregation Principle"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "nfib-v-sebelius",
+    "name": "National Federation of Independent Business v. Sebelius",
+    "year": 2012,
+    "citation": "567 U.S. 519 (2012)",
+    "holding": "The individual mandate exceeded Congress's Commerce Clause power because Congress cannot compel individuals to enter commerce — the power to regulate presupposes the existence of commercial activity. However, the mandate was sustained as a valid exercise of the taxing power. The Medicaid expansion's threat to withhold all Medicaid funding was unconstitutionally coercive under the Spending Clause.",
+    "significance": "Established the activity/inactivity distinction as a threshold Commerce Clause limit, articulated the tax-vs-penalty framework, and set benchmarks for Spending Clause coercion analysis. A landmark case that draws together three distinct congressional powers in one opinion.",
+    "doctrineAreas": [
+      "Commerce Clause",
+      "Taxing Power",
+      "Spending Power",
+      "Congressional Power",
+      "Federalism"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "south-dakota-v-dole",
+    "name": "South Dakota v. Dole",
+    "year": 1987,
+    "citation": "483 U.S. 203 (1987)",
+    "holding": "Congress may condition 5% of federal highway funds on states raising the drinking age to 21. The condition was germane to highway safety and the amount was not so great as to be coercive — the state retained a real choice to decline the funds.",
+    "significance": "Established the Spending Clause analytical framework for conditional funding: conditions must be germane to the program, and the amount must not be so great as to be coercive. Set the lower benchmark (5% of highway funds is not coercive) that NFIB v. Sebelius later contrasted with 10% of entire state budgets.",
+    "doctrineAreas": [
+      "Spending Power",
+      "Congressional Power",
+      "Federalism",
+      "Conditional Funding"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "new-york-v-us",
+    "name": "New York v. United States",
+    "year": 1992,
+    "citation": "505 U.S. 144 (1992)",
+    "holding": "Congress cannot commandeer state legislatures by ordering them to adopt regulations. A statute requiring states to either regulate nuclear waste or take title to it presented a choice between two unconstitutional options and violated the Tenth Amendment.",
+    "significance": "The foundational anti-commandeering case establishing that the federal government cannot order state legislatures to enact or administer a federal regulatory program. The underlying rationale is democratic accountability — citizens must be able to determine whether to blame the state or federal government.",
+    "doctrineAreas": [
+      "Tenth Amendment",
+      "Anti-Commandeering",
+      "Federalism",
+      "State Sovereignty"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "printz-v-us",
+    "name": "Printz v. United States",
+    "year": 1997,
+    "citation": "521 U.S. 898 (1997)",
+    "holding": "Congress cannot commandeer state executive officers to administer or enforce a federal regulatory program. The Brady Bill's requirement that state law enforcement officers conduct background checks in an interim period violated the Tenth Amendment.",
+    "significance": "Extended New York v. United States from state legislatures to state executive officials, reinforcing that the federal government cannot conscript state officers to carry out federal law. The principle explains why the federal government cannot order state police to arrest people for federal cannabis violations.",
+    "doctrineAreas": [
+      "Tenth Amendment",
+      "Anti-Commandeering",
+      "Federalism",
+      "State Sovereignty"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "murphy-v-ncaa",
+    "name": "Murphy v. NCAA",
+    "year": 2018,
+    "citation": "584 U.S. 453 (2018)",
+    "holding": "Congress cannot prohibit states from authorizing activity (sports gambling). Telling a state 'you may not make this legal' is functionally the same as telling it 'you must make this illegal,' which violates the anti-commandeering doctrine of the Tenth Amendment.",
+    "significance": "Extended the anti-commandeering doctrine to its logical conclusion: Congress cannot command states to keep something illegal any more than it can command them to make something illegal. Directly enabled the legalization of sports betting nationwide and illustrates the cannabis federalism dynamic.",
+    "doctrineAreas": [
+      "Tenth Amendment",
+      "Anti-Commandeering",
+      "Federalism",
+      "State Sovereignty"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-curtiss-wright",
+    "name": "United States v. Curtiss-Wright Export Corp.",
+    "year": 1936,
+    "citation": "299 U.S. 304 (1936)",
+    "holding": "Congress's delegation to the President of the power to prohibit arms sales upon a presidential finding that such a ban would contribute to peace was constitutional. The Court upheld the delegation and added extensive dicta about the President as the 'sole organ' of foreign relations with powers that do not require congressional authorization.",
+    "significance": "The foundational case for broad presidential foreign affairs power and a Youngstown Category 1 case. The 'sole organ' dicta is cited whenever presidential foreign affairs authority is at issue, though it is mostly dicta. Distinguished foreign affairs delegation from domestic delegation.",
+    "doctrineAreas": [
+      "Foreign Affairs",
+      "Presidential Power",
+      "Non-Delegation Doctrine",
+      "Youngstown Framework"
+    ],
+    "keyQuote": "The President alone has the power to speak or listen as a representative of the nation. He makes treaties with the advice and consent of the Senate; but he alone negotiates."
+  },
+  {
+    "id": "dames-moore-v-regan",
+    "name": "Dames & Moore v. Regan",
+    "year": 1981,
+    "citation": "453 U.S. 654 (1981)",
+    "holding": "The President's suspension of claims by U.S. plaintiffs against Iranian defendants as part of the Iran hostage crisis resolution was constitutional. Although no statute directly authorized the suspension, the 'general tenor' of congressional legislation in the area indicated congressional acceptance of a broad scope for executive action — a Youngstown Category 1.5 situation.",
+    "significance": "Reconceived the Youngstown framework as a spectrum rather than three rigid categories. Introduced the concept that the 'general tenor' of statutes can support presidential action even without specific authorization. The President's long, unbroken history of settling claims through executive agreements supported the holding.",
+    "doctrineAreas": [
+      "Foreign Affairs",
+      "Presidential Power",
+      "Youngstown Framework",
+      "Executive Agreements"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "medellin-v-texas",
+    "name": "Medellin v. Texas",
+    "year": 2008,
+    "citation": "552 U.S. 491 (2008)",
+    "holding": "The President cannot enforce a non-self-executing treaty domestically through an executive memorandum without implementing legislation from Congress. The Vienna Convention's consular notification requirement was non-self-executing, and the President's attempt to direct state courts to comply was an unprecedented action lacking any history of congressional acquiescence. This was Youngstown Category 3, and the President lost.",
+    "significance": "Established the critical distinction between self-executing and non-self-executing treaties. Demonstrates that presidential foreign affairs power, while strong, has limits — the broad dicta of Curtis-Wright does not authorize the President to do whatever he wants in foreign affairs.",
+    "doctrineAreas": [
+      "Foreign Affairs",
+      "Presidential Power",
+      "Youngstown Framework",
+      "Treaty Power",
+      "Self-Executing Treaties"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "zivotofsky-v-kerry",
+    "name": "Zivotofsky v. Kerry",
+    "year": 2015,
+    "citation": "576 U.S. 1 (2015)",
+    "holding": "The power to recognize foreign governments is an exclusive presidential power, inferred from the power to receive ambassadors and the treaty power. Even at Youngstown Category 3 — acting contrary to Congress's expressed will — the President prevails because recognition is an exclusive, preclusive presidential power that Congress cannot restrict.",
+    "significance": "The critical case where the President wins in Youngstown Category 3. For exam and analysis purposes, if the President faces a Category 3 scenario, Zivotofsky is the precedent — but the power must be truly exclusive and preclusive. Demonstrates that one voice must speak for the nation on recognition.",
+    "doctrineAreas": [
+      "Foreign Affairs",
+      "Presidential Power",
+      "Youngstown Framework",
+      "Recognition Power"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "rucho-v-common-cause",
+    "name": "Rucho v. Common Cause",
+    "year": 2019,
+    "citation": "588 U.S. 684 (2019)",
+    "holding": "Political gerrymandering claims are nonjusticiable political questions. Once some degree of political gerrymandering is conceded as inevitable and permissible, there are no judicially manageable standards for determining when it has gone 'too far.'",
+    "significance": "The landmark holding removing federal courts from policing partisan gerrymandering. Justice Kagan's dissent proposed a three-part test (political purpose, substantial dilution, no nonpartisan justification) that the majority rejected. Racial gerrymandering remains justiciable but is hard to prove.",
+    "doctrineAreas": [
+      "Political Question Doctrine",
+      "Gerrymandering",
+      "Justiciability",
+      "Equal Protection"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "bush-v-gore",
+    "name": "Bush v. Gore",
+    "year": 2000,
+    "citation": "531 U.S. 98 (2000)",
+    "holding": "The use of inconsistent recount standards across Florida counties in the 2000 presidential election violated the Equal Protection Clause. The Court effectively decided the presidential election by halting the recount.",
+    "significance": "Powerfully illustrates the 'unprincipled' nature of the political question doctrine's application — the Court was willing to decide arguably the most political question of all (a presidential election) despite the doctrine it uses to avoid far less politically charged questions. Justice Breyer dissented, arguing this was a political question.",
+    "doctrineAreas": [
+      "Political Question Doctrine",
+      "Equal Protection",
+      "Electoral Process",
+      "Justiciability"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "plessy-v-ferguson",
+    "name": "Plessy v. Ferguson",
+    "year": 1896,
+    "citation": "163 U.S. 537 (1896)",
+    "holding": "Separate but equal railroad accommodations for Black and white passengers do not violate the Equal Protection Clause. The legal standard applied was extremely deferential: 'reasonable regulations for the public good are constitutional,' giving the legislature wide discretion to act to protect traditions and good order.",
+    "significance": "The foundational case upholding racial segregation and a low point for the Supreme Court. The Court dismissed the argument that segregation stamped Black citizens with a 'badge of inferiority,' claiming legislation was 'powerless to eradicate racial instincts.' Justice Harlan's dissent argued for a colorblind Constitution. Plessy stood for nearly sixty years until overturned by Brown v. Board of Education.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Racial Classification",
+      "Separate But Equal"
+    ],
+    "keyQuote": "Legislation is powerless to eradicate racial instincts, and the attempt to do so can only result in accentuating the difficulties of the present situation."
+  },
+  {
+    "id": "strauder-v-west-virginia",
+    "name": "Strauder v. West Virginia",
+    "year": 1880,
+    "citation": "100 U.S. 303 (1880)",
+    "holding": "A state statute providing for white-only juries with respect to a Black defendant violates the Equal Protection Clause. The Court recognized a distinction between overt racial discrimination and mere segregation, striking down the former.",
+    "significance": "An early case recognizing that discriminatory statutes are 'a stimulant to race prejudice.' While striking down explicit exclusion from juries, the Court's distinction between outright discrimination and segregation left room for the 'separate but equal' doctrine to develop in Plessy. Strauder remains a foundational example of facial racial discrimination receiving strict scrutiny.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Racial Classification",
+      "Jury Rights"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "korematsu-v-united-states",
+    "name": "Korematsu v. United States",
+    "year": 1944,
+    "citation": "323 U.S. 214 (1944)",
+    "holding": "The exclusion of Japanese Americans from the West Coast under Executive Order 9066 during World War II was upheld despite the Court's declaration that race-based discrimination statutes are 'immediately suspect' and subject to 'the most rigid scrutiny.' The Court deferred to the military's determination that the exclusion was necessary.",
+    "significance": "Used the language of strict scrutiny but did not apply it in practice, upholding an order that was vastly overinclusive with respect to the government's interest. The Court's extreme deference to the military allowed the result. Korematsu's conviction was overturned in 1984 after it was discovered the military had misrepresented the dangers, and the case has since been formally disavowed by the Supreme Court. The case is a cautionary tale about judicial deference undermining constitutional rights.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Racial Classification",
+      "War Powers"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "brown-v-board-of-education",
+    "name": "Brown v. Board of Education",
+    "year": 1954,
+    "citation": "347 U.S. 483 (1954)",
+    "holding": "Separate but equal in public education violates the Equal Protection Clause. Segregation is inherently unequal and stigmatizing, even when physical facilities are equal. The Court achieved unanimity under Chief Justice Warren but included no remedy in the initial opinion.",
+    "significance": "Overturned Plessy v. Ferguson and is among the most important Supreme Court decisions in American history. Warren secured unanimity partly by severing the right from the remedy, deferring the remedial question to Brown II. Footnote 11, citing social science studies, remains debated as potentially weakening the opinion by making it seem contingent on empirical findings rather than constitutional principle. Both sides of the modern affirmative action debate claim Brown's mantle — formalists argue Brown's promise is that race can never be a criterion, while substantive equality proponents argue Brown's promise is integration.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Racial Classification",
+      "School Desegregation"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "bolling-v-sharpe",
+    "name": "Bolling v. Sharpe",
+    "year": 1954,
+    "citation": "347 U.S. 497 (1954)",
+    "holding": "The Equal Protection Clause applies to the federal government through the Fifth Amendment Due Process Clause. The federal government cannot maintain segregated schools in the District of Columbia while the states are prohibited from doing so under the Fourteenth Amendment.",
+    "significance": "Established the doctrine of 'reverse incorporation,' holding that equal protection principles bind the federal government even though the Equal Protection Clause by its terms applies only to the states. This is doctrinally important because there is no Equal Protection Clause that directly applies to the federal government.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Due Process",
+      "Reverse Incorporation",
+      "Federal Government"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "loving-v-virginia",
+    "name": "Loving v. Virginia",
+    "year": 1967,
+    "citation": "388 U.S. 1 (1967)",
+    "holding": "Virginia's miscegenation law prohibiting interracial marriage violates the Equal Protection Clause. The law was 'clearly racial discrimination' and 'a measure to promote white supremacy.' The Court held it must be subject to the most rigid scrutiny and must be 'necessary to accomplish some permissible goal' other than discrimination.",
+    "significance": "Established modern strict scrutiny for racial classifications, building on the language from Korematsu. Virginia argued the law was not discriminatory because it applied equally to both races, but the Court rejected this. Since Loving, facial racial discrimination laws rarely reach the Supreme Court because they are clearly unconstitutional. The only modern case to do so is Johnson v. California (2005).",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Racial Classification",
+      "Fundamental Rights"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "johnson-v-california",
+    "name": "Johnson v. California",
+    "year": 2005,
+    "citation": "543 U.S. 499 (2005)",
+    "holding": "California's prison policy of racially segregating incoming prisoners for their first 60 days to prevent racially motivated violence is subject to strict scrutiny and is unconstitutional. Even assuming the prevention of prison violence was a compelling interest, the policy failed the means analysis because virtually every other prison system and the federal government managed without reliance on racial segregation.",
+    "significance": "The most modern example of the Court applying strict scrutiny to a facial racial classification. Illustrates how the means prong of strict scrutiny works in practice — the alternatives analysis was dispositive. The Court rejected the argument that a deferential prison-rights standard (Turner v. Safley) should displace strict scrutiny for racial classifications.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Racial Classification"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-railroad-retirement-board-v-fritz",
+    "name": "U.S. Railroad Retirement Board v. Fritz",
+    "year": 1980,
+    "citation": "449 U.S. 166 (1980)",
+    "holding": "Under rational basis review, if there are 'plausible reasons' for Congress's action, 'our inquiry is at an end.' It is 'constitutionally irrelevant whether this reasoning in fact underlay the legislative decision.'",
+    "significance": "Established that hypothetical interests suffice under rational basis review — the government need not prove the actual reasons behind the law, and the government's stated interest does not have to be the real interest it relied upon. This principle makes rational basis review extremely deferential.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Rational Basis"
+    ],
+    "keyQuote": "Where there are plausible reasons for Congress's action, our inquiry is at an end. It is of course constitutionally irrelevant whether this reasoning in fact underlay the legislative decision."
+  },
+  {
+    "id": "williamson-v-lee-optical",
+    "name": "Williamson v. Lee Optical",
+    "year": 1955,
+    "citation": "348 U.S. 483 (1955)",
+    "holding": "Under rational basis review, the government may legislate 'one step at a time,' addressing one phase of a problem without having to address all of it. Extreme underinclusiveness is tolerated.",
+    "significance": "The most-cited rational basis case. Establishes the 'one step at a time' principle, which means the government need not address all aspects of a problem comprehensively — it can focus on one aspect and deal with others later. This principle tolerates extreme underinclusiveness at the rational basis level.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Rational Basis"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-dept-agriculture-v-moreno",
+    "name": "U.S. Department of Agriculture v. Moreno",
+    "year": 1973,
+    "citation": "413 U.S. 528 (1973)",
+    "holding": "A federal statute excluding households with unrelated individuals from food stamp eligibility fails rational basis review because it was driven by 'a bare congressional desire to harm a politically unpopular group' — hippie communes. Animus is not a legitimate government interest.",
+    "significance": "The first of the three landmark animus cases. Established that government action motivated by a bare desire to harm a politically unpopular group is not a legitimate interest under rational basis review. The Court also found that even the government's non-animus-based interests (promoting nutrition and reducing fraud) were insufficient, suggesting animus taints all other government interests.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Rational Basis",
+      "Animus Doctrine"
+    ],
+    "keyQuote": "A bare congressional desire to harm a politically unpopular group cannot constitute a legitimate governmental interest."
+  },
+  {
+    "id": "city-of-cleburne-v-cleburne-living-center",
+    "name": "City of Cleburne v. Cleburne Living Center",
+    "year": 1985,
+    "citation": "473 U.S. 432 (1985)",
+    "holding": "A zoning ordinance requiring a special use permit for a group home for persons with mental disabilities, but not for other similar institutions (hospitals, nursing homes) on the same site, fails rational basis review because it was motivated by 'irrational prejudice' against persons with mental disabilities.",
+    "significance": "The second landmark animus case. Demonstrates the tainting effect of animus: even the facially plausible 500-year flood plain justification failed because the Court found animus at work. In an ordinary rational basis case, that justification would have survived under the 'one step at a time' principle. When animus is present, it delegitimizes all other potentially valid government interests.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Rational Basis",
+      "Animus Doctrine"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "romer-v-evans",
+    "name": "Romer v. Evans",
+    "year": 1996,
+    "citation": "517 U.S. 620 (1996)",
+    "holding": "Colorado's constitutional amendment prohibiting local governments from protecting gays and lesbians from discrimination fails rational basis review because it was animated by 'animus towards the class that it affects.'",
+    "significance": "The third landmark animus case. Extended the animus doctrine to sexual orientation discrimination. Together with Moreno and Cleburne, established that animus — bare desire to harm a group — is the one purpose that is never 'legitimate' under rational basis review.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Rational Basis",
+      "Animus Doctrine"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "washington-v-davis",
+    "name": "Washington v. Davis",
+    "year": 1976,
+    "citation": "426 U.S. 229 (1976)",
+    "holding": "Disproportionate racial impact alone, without proof of discriminatory intent, does not trigger strict scrutiny. A facially neutral law with racially disproportionate effects receives only rational basis review unless the plaintiff demonstrates the government acted with an intent to discriminate.",
+    "significance": "Establishes the default rule for facially neutral laws with disparate impact — intent must be proven. This is 'extremely significant because of the pervasive history of inequality' and the fact that many facially neutral laws (education requirements, employment criteria, AI algorithms) will have disproportionate racial effects. The decision has been criticized as insufficient to address systemic discrimination.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Disparate Impact",
+      "Discriminatory Intent"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "personnel-administrator-v-feeney",
+    "name": "Personnel Administrator v. Feeney",
+    "year": 1979,
+    "citation": "442 U.S. 256 (1979)",
+    "holding": "The plaintiff must show the government acted 'because of,' not merely 'in spite of,' adverse effects upon an identifiable group. Knowledge of disproportionate impacts is not enough to show discriminatory intent. This standard is stricter than tort law, where knowledge of harmful consequences may suffice.",
+    "significance": "Sets the intent standard for disparate impact claims under Washington v. Davis. The 'because of' versus 'in spite of' distinction is the critical doctrinal line. Applied in a gender context (Massachusetts veterans' preference for civil service) but governs all equal protection disparate impact claims.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Disparate Impact",
+      "Discriminatory Intent"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "village-of-arlington-heights-v-mhdc",
+    "name": "Village of Arlington Heights v. Metropolitan Housing Development Corp.",
+    "year": 1977,
+    "citation": "429 U.S. 252 (1977)",
+    "holding": "Established a burden-shifting framework for proving discriminatory intent in facially neutral laws. Relevant factors include: historical background, the specific sequence of events leading to the challenged decision, departures from normal procedural sequence, and legislative or administrative history. If the plaintiff demonstrates discriminatory intent, the burden shifts to the government to show it would have adopted the law anyway without the impermissible motive.",
+    "significance": "Provides the evidentiary framework for proving intent under Washington v. Davis. If the government fails to rebut the showing of intent, the law receives strict scrutiny and will almost certainly fail. If the government succeeds, the law receives rational basis review. The factors have been applied in subsequent cases including the Thomas Jefferson High School admissions case.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Disparate Impact",
+      "Discriminatory Intent",
+      "Burden-Shifting"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "gomillion-v-lightfoot",
+    "name": "Gomillion v. Lightfoot",
+    "year": 1960,
+    "citation": "364 U.S. 339 (1960)",
+    "holding": "A racial gerrymander that redrew the city boundaries of Tuskegee, Alabama into an 'uncouth twenty-eight-sided figure' to exclude virtually all Black voters is unconstitutional. The effects were so extreme that the Court inferred discriminatory intent from impact alone.",
+    "significance": "Represents the rare situation where the Court is willing to infer discriminatory purpose from extreme effects, even without direct evidence of intent. Together with Yick Wo v. Hopkins, establishes that some discriminatory impacts are so stark as to be 'unexplainable on grounds other than an intent to discriminate.'",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Discriminatory Intent",
+      "Racial Gerrymandering"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "yick-wo-v-hopkins",
+    "name": "Yick Wo v. Hopkins",
+    "year": 1886,
+    "citation": "118 U.S. 356 (1886)",
+    "holding": "A facially neutral San Francisco laundry licensing ordinance that was administered to approve all 200 applications by white laundry operators and deny all 200 applications by Chinese operators violates the Equal Protection Clause. Discriminatory application of a neutral law can establish a constitutional violation.",
+    "significance": "A paradigmatic case where extreme discriminatory effects support an inference of intent. The discriminatory application of a facially neutral law was 'unexplainable on grounds other than an intent to discriminate.' Together with Gomillion, stands for the proposition that extreme disparities can prove intent, though such situations are rare.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Discriminatory Intent",
+      "Discriminatory Application"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "palmer-v-thompson",
+    "name": "Palmer v. Thompson",
+    "year": 1971,
+    "citation": "403 U.S. 217 (1971)",
+    "holding": "Jackson, Mississippi's decision to close public swimming pools rather than integrate them does not violate the Equal Protection Clause despite clear discriminatory intent, because there was no discriminatory effect — the pools were closed to everyone. A plaintiff must demonstrate both discriminatory intent and disproportionate effect.",
+    "significance": "Establishes that intent alone is insufficient without a corresponding discriminatory effect. This dual requirement makes it even harder for plaintiffs to succeed under the Washington v. Davis framework — they must prove both prongs.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Discriminatory Intent",
+      "Disparate Impact"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "mccleskey-v-kemp",
+    "name": "McCleskey v. Kemp",
+    "year": 1987,
+    "citation": "481 U.S. 279 (1987)",
+    "holding": "Statistical evidence showing stark racial disparities in the Georgia death penalty system — 22% death penalty rate for Black-defendant/white-victim cases versus 1% for Black-defendant/Black-victim cases — is insufficient to prove either individual discrimination in a particular case or systemic unconstitutionality. The Court rejected both the individual claim (analogy to jury venire statistics) and the systemic claim (no evidence Georgia maintained the death penalty because of anticipated discriminatory effects).",
+    "significance": "Perhaps the most criticized application of the Washington v. Davis framework. Demonstrates how difficult it is to make out a discrimination claim in complex institutional contexts even with dramatic statistical evidence. The dissent argued the majority's framework reflects a 'fear of too much justice.' The case illustrates the limits of the intent requirement when applied to systemic discrimination.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Discriminatory Intent",
+      "Criminal Justice",
+      "Death Penalty"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "regents-v-bakke",
+    "name": "Regents of University of California v. Bakke",
+    "year": 1978,
+    "citation": "438 U.S. 265 (1978)",
+    "holding": "A 4-1-4 decision. Justice Powell's controlling opinion held: (1) strict scrutiny applies to all racial classifications, including benign ones; (2) diversity in higher education is a compelling interest; (3) remedying specific past discrimination is a compelling interest, but there were no findings of past discrimination at this medical school; (4) a rigid quota reserving 16 of 100 seats for minority students fails the means analysis; (5) race may be used as a 'plus' factor in an individualized admissions process.",
+    "significance": "The first Supreme Court case on affirmative action in university admissions. Powell's controlling opinion set the terms of debate for decades — diversity as a compelling interest and race as a 'plus' factor became the cornerstones of the doctrine through Grutter. Under the Marks rule, in a 4-1-4 case, the narrowest rationale controls. Powell's position became the controlling precedent because it would strike down only programs with certain defects (quotas), not all race-conscious admissions.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "city-of-richmond-v-croson",
+    "name": "City of Richmond v. J.A. Croson Co.",
+    "year": 1989,
+    "citation": "488 U.S. 469 (1989)",
+    "holding": "Struck down 6-3 a state contracting set-aside program for minority business enterprises. Key holdings: (1) strict scrutiny applies to state affirmative action programs; (2) the government must point to specific, identified past discrimination — 'general societal discrimination is not enough'; (3) the government must consider or try race-neutral alternatives first before resorting to explicit racial classifications.",
+    "significance": "Established that state affirmative action programs receive strict scrutiny and require evidence of specific institutional discrimination, not just general societal discrimination. Distinguished from the federal context — O'Connor noted Congress's Section 5 enforcement power gave the federal government more latitude, though this distinction did not survive Adarand. O'Connor's willingness to see strict scrutiny as 'not fatal in fact' previewed the approach she would take in Grutter.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Government Contracting"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "adarand-v-pena",
+    "name": "Adarand Constructors, Inc. v. Peña",
+    "year": 1995,
+    "citation": "515 U.S. 200 (1995)",
+    "holding": "All affirmative action programs — federal and state — receive strict scrutiny. The 'congruence' principle means there is no distinction between federal and state racial classifications. O'Connor maintained that strict scrutiny is 'not fatal in fact.'",
+    "significance": "Eliminated the brief period (1990–1995) in which federal affirmative action received only intermediate scrutiny under Metro Broadcasting. After Adarand, every facial racial classification, whether benign or invidious, at every level of government, receives strict scrutiny. The replacement of Justices Brennan, Blackmun, White, and Marshall with Justices Breyer, Ginsburg, Souter, and Thomas — particularly Marshall with Thomas — made this shift inevitable.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Congruence Principle"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "grutter-v-bollinger",
+    "name": "Grutter v. Bollinger",
+    "year": 2003,
+    "citation": "539 U.S. 306 (2003)",
+    "holding": "The University of Michigan Law School's holistic admissions program, which considered race as one 'plus' factor among many, survived strict scrutiny. Diversity in the student body is a compelling interest. On narrow tailoring: (1) no mechanical, predetermined diversity bonus or quota systems; (2) race may be considered as a 'plus' in an admissions file; (3) universities must give 'serious good-faith consideration' to race-neutral alternatives; (4) affirmative action programs must have a temporal endpoint — the Court 'expected that 25 years from now, the use of racial preferences will no longer be necessary.'",
+    "significance": "The foundational modern affirmative action case in higher education. Affirmed Powell's view from Bakke that diversity is a compelling interest and that race as a plus factor can satisfy narrow tailoring. The 25-year endpoint proved prescient — SFFA came down almost exactly 20 years later. Not formally overruled by SFFA, but practically gutted.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "gratz-v-bollinger",
+    "name": "Gratz v. Bollinger",
+    "year": 2003,
+    "citation": "539 U.S. 244 (2003)",
+    "holding": "The University of Michigan's undergraduate admissions program, which used a 150-point scale with an automatic 20-point award for membership in an underrepresented minority group, fails narrow tailoring. The automatic 20-point bonus was too rigid and too mechanical to satisfy strict scrutiny.",
+    "significance": "Companion case to Grutter decided the same term. Illustrates the distinction between permissible race-as-a-plus (Grutter's holistic review) and impermissible mechanical racial preferences. Justice Ginsburg and Justice Souter dissented, warning that universities would now 'camouflage' their diversity efforts through facially neutral policies.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "fisher-v-university-of-texas",
+    "name": "Fisher v. University of Texas (Fisher 2)",
+    "year": 2016,
+    "citation": "579 U.S. 365 (2016)",
+    "holding": "Texas's admissions program, which used a top 10% plan to fill 75% of the class and considered race as one sub-factor for the remaining 25%, survived strict scrutiny in a 4-3 decision. Diversity remains a compelling interest. The program was narrowly tailored because race was 'a factor of a factor of a factor.'",
+    "significance": "The most recent case before SFFA to uphold race-conscious admissions. Justice Kennedy's majority opinion emphasized the marginal and holistic nature of the racial consideration. The decision summarized pre-SFFA doctrine: strict scrutiny applies, diversity is a compelling interest, race can be one flexible factor among many, universities must consider race-neutral alternatives, and the program must have an endpoint.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "sffa-v-harvard",
+    "name": "Students for Fair Admissions v. Harvard & UNC",
+    "year": 2023,
+    "citation": "600 U.S. 181 (2023)",
+    "holding": "Both Harvard's and UNC's race-conscious admissions programs are unconstitutional. The Court did not formally overrule Grutter or declare diversity is no longer a compelling interest, but introduced requirements that make race-conscious admissions practically impossible: (1) diversity goals must be 'concrete and measurable' for strict scrutiny; (2) race cannot be used as a 'negative' — in zero-sum admissions, every racial plus creates a minus; (3) any use of race as a plus constitutes impermissible stereotyping; (4) racial categories were too overbroad (all 'Asian' students lumped together).",
+    "significance": "Effectively ended race-conscious university admissions. Grutter is not formally overruled but is practically gutted. Possible remaining theories include: (1) remedying very specific past institutional discrimination; (2) military academies (footnote 4 left open); (3) personal essays reflecting individual character. The critical open question going forward is whether race-conscious but race-neutral measures remain constitutional. Justice Jackson's dissent frames the debate as formal versus substantive equality.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "parents-involved-v-seattle",
+    "name": "Parents Involved in Community Schools v. Seattle School District No. 1",
+    "year": 2007,
+    "citation": "551 U.S. 701 (2007)",
+    "holding": "A 4-1-4 decision. The plurality (Roberts) held that voluntary race-based student assignment plans in Seattle and Louisville were unconstitutional under strict scrutiny. Justice Kennedy's controlling concurrence held: (1) avoiding racial isolation can be a compelling interest; (2) achieving a diverse student body can be a compelling interest; (3) crude individual racial classification systems fail strict scrutiny; (4) race-conscious but race-neutral mechanisms are available and endorsed for achieving diversity.",
+    "significance": "Kennedy's concurrence is the controlling opinion and is critical for the race-conscious but race-neutral measures debate. Kennedy endorsed specific permissible methods: strategic site selection, drawing attendance zones with recognition of demographics, allocating resources for special programs, and targeted recruiting. The Roberts-Breyer debate about who is the rightful heir of Brown — Roberts's formal equality ('the way to stop discrimination on the basis of race is to stop discriminating on the basis of race') versus Breyer's substantive equality (the plurality 'makes it impossible for districts that once spurned integration to now achieve it') — is a central theme of modern equal protection law.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Strict Scrutiny",
+      "Affirmative Action",
+      "School Desegregation",
+      "Race-Neutral Measures"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-carolene-products",
+    "name": "United States v. Carolene Products Co.",
+    "year": 1938,
+    "citation": "304 U.S. 144 (1938)",
+    "holding": "A rational basis era case upholding federal regulation of filled milk. In Footnote 4, Justice Stone suggested that stricter judicial review might be appropriate for statutes directed at 'discrete and insular minorities' because 'prejudice against discrete and insular minorities may be a special condition which tends seriously to curtail the operation of those political processes ordinarily to be relied upon to protect minorities.'",
+    "significance": "Footnote 4 is one of the most cited and discussed passages in constitutional law. It provides the theoretical foundation for heightened scrutiny — the idea that certain groups lack political power and therefore need judicial protection. John Hart Ely's book Democracy and Distrust developed the theory at length. The discrete and insular minorities concept has been invoked in debates about extending heightened scrutiny to groups based on sexual orientation, gender identity, and other characteristics.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Heightened Scrutiny",
+      "Political Process Theory",
+      "Judicial Review"
+    ],
+    "keyQuote": "Prejudice against discrete and insular minorities may be a special condition, which tends seriously to curtail the operation of those political processes ordinarily to be relied upon to protect minorities."
+  },
+  {
+    "id": "reed-v-reed",
+    "name": "Reed v. Reed",
+    "year": 1971,
+    "citation": "404 U.S. 71 (1971)",
+    "holding": "An Idaho statute that preferred men over women as estate administrators violates the Equal Protection Clause. Administrative convenience is arbitrary and insufficient to justify a gender classification.",
+    "significance": "The first case to strike down a gender classification under the Equal Protection Clause. Applied what commentators called 'rational basis review with bite' — not yet intermediate scrutiny, but more rigorous than traditional rational basis. Began the incremental development of heightened scrutiny for gender classifications. Professor Gunther, who was Justice Ginsburg's professor, coined the term 'rational basis with bite.'",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Rational Basis With Bite"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "frontiero-v-richardson",
+    "name": "Frontiero v. Richardson",
+    "year": 1973,
+    "citation": "411 U.S. 677 (1973)",
+    "holding": "A military benefits scheme allowing male service members to automatically claim their wives as dependents but not allowing female members to do the same for their husbands violates the Equal Protection Clause. Four justices advocated strict scrutiny for sex classifications; the Court struck down the law under some form of heightened scrutiny without reaching a clear formulation.",
+    "significance": "Justice Ginsburg's first Supreme Court argument. Much of Justice Brennan's opinion was drawn nearly verbatim from her brief and oral argument. In her argument, Ginsburg invoked Sarah Grimké's 1837 statement. The case marked the Court's growing recognition that gender-based distinctions require heightened scrutiny, though the precise level was not yet settled.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Heightened Scrutiny"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "craig-v-boren",
+    "name": "Craig v. Boren",
+    "year": 1976,
+    "citation": "429 U.S. 190 (1976)",
+    "holding": "A gender classification must serve an important government objective and be substantially related to achieving that objective. [**FLAG: The vault materials note this case 'formally establishes the intermediate scrutiny test' but mark the detailed holding for insertion from additional lecture coverage not yet uploaded.**]",
+    "significance": "Formally established the intermediate scrutiny test for gender classifications — the classification must be 'substantially related to an important government interest.' Known as the '3.2% beer case.' Occupies a critical position in the doctrinal development between Reed/Frontiero and United States v. Virginia.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Intermediate Scrutiny"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "kahn-v-shevin",
+    "name": "Kahn v. Shevin",
+    "year": 1974,
+    "citation": "416 U.S. 351 (1974)",
+    "holding": "A $500 property tax exemption for women but not men is constitutional because the government was remedying real societal discrimination in the job market — women earned approximately 58 cents on the dollar. The law addressed a real ground of difference, not just an archaic stereotype.",
+    "significance": "Established a critical distinction from race cases: in gender discrimination, the government may remedy general societal discrimination against women, whereas in race cases, the remedy must be specific to the particular institution at issue. This case and Schlesinger v. Ballard illustrate that not all gender classifications fail — those addressing real documented differences in treatment may survive. Another case argued by Justice Ginsburg.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Intermediate Scrutiny"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "weinberger-v-wiesenfeld",
+    "name": "Weinberger v. Wiesenfeld",
+    "year": 1975,
+    "citation": "420 U.S. 636 (1975)",
+    "holding": "A Social Security policy providing survivors' benefits to widowed mothers but not widowed fathers violates the Equal Protection Clause. The government's argument that male earnings were more vital to family support was based on the archaic stereotype that men are breadwinners and women are dependents.",
+    "significance": "Another Ginsburg-argued case. Key illustration of the distinction between laws based on archaic gender stereotypes (which fail) and laws addressing real documented differences (which may survive). The Court found the classification reinforced rather than remedied gender inequality by assuming women are inherently dependent.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Archaic Stereotypes"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "rostker-v-goldberg",
+    "name": "Rostker v. Goldberg",
+    "year": 1981,
+    "citation": "453 U.S. 57 (1981)",
+    "holding": "The male-only selective service registration requirement is constitutional because at the time women were excluded from combat roles. The distinction was justified by a real difference in military eligibility, not an archaic stereotype.",
+    "significance": "Now that women are eligible for all combat roles, the original justification has collapsed. The Fifth Circuit acknowledged the rule no longer makes sense but considered itself bound by Rostker. Congress considered but did not amend the statute. The case raises important questions about who is harmed by 'protective' gender classifications — they stigmatize the military as hypermasculine, reinforce stereotypes about physical capacity, and deny women full equality of obligation.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Intermediate Scrutiny",
+      "Military"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "us-v-virginia",
+    "name": "United States v. Virginia (VMI)",
+    "year": 1996,
+    "citation": "518 U.S. 515 (1996)",
+    "holding": "Virginia Military Institute's male-only admissions policy violates the Equal Protection Clause. The Court applied intermediate scrutiny, requiring that a gender classification serve an important government objective and that the discriminatory means be substantially related to that objective. [**FLAG: The vault materials reference this as 'the landmark case' and 'the Ginsburg opinion' applying intermediate scrutiny, but the detailed holding and specific quotes are marked for insertion from lecture coverage not fully uploaded for this case.**]",
+    "significance": "The culmination of the gender discrimination line of cases from Reed through Craig v. Boren. Justice Ginsburg wrote the majority opinion. The case is the modern high point of intermediate scrutiny for gender classifications. It represents the culmination of Ginsburg's decades-long litigation strategy, from her ACLU Women's Rights Project work through her elevation to the Supreme Court.",
+    "doctrineAreas": [
+      "Equal Protection",
+      "Gender Discrimination",
+      "Intermediate Scrutiny",
+      "Higher Education"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "philadelphia-v-new-jersey",
+    "name": "Philadelphia v. New Jersey",
+    "year": 1978,
+    "citation": "437 U.S. 617 (1978)",
+    "holding": "New Jersey's ban on out-of-state waste producers accessing in-state landfills violates the Dormant Commerce Clause. The law is facially discriminatory on the basis of geography — it protects in-state waste producers at the expense of out-of-state producers. The Maine v. Taylor baitfish exception does not apply because there is nothing inherent about waste that requires discriminatory treatment.",
+    "significance": "The paradigmatic state protectionist measure under the Dormant Commerce Clause. States may regulate waste disposal through non-discriminatory means (environmental requirements, capacity caps) but cannot achieve their goals through geographic discrimination. The case illustrates the retaliatory dynamic the Dormant Commerce Clause prevents — if every state banned out-of-state waste, fifty states would each only accept waste from within their own borders.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Facial Discrimination",
+      "State Protectionism"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "dean-milk-v-madison",
+    "name": "Dean Milk Co. v. City of Madison",
+    "year": 1951,
+    "citation": "340 U.S. 349 (1951)",
+    "holding": "A city ordinance requiring milk to be bottled at processors within the city of Madison violates the Dormant Commerce Clause. Local protectionist laws that treat in-locality businesses differently from out-of-locality businesses are subject to the same Dormant Commerce Clause analysis as laws that discriminate by state.",
+    "significance": "Established that the Dormant Commerce Clause applies to local protectionist measures, not just state-level discrimination. Even though Green Bay and other Wisconsin cities were also harmed (not just out-of-state producers), the geographic discrimination triggers Dormant Commerce Clause scrutiny because localities cannot discriminate on the basis of geography with respect to who has access to their markets.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Facial Discrimination",
+      "Local Protectionism"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "ca-carbone-v-clarkstown",
+    "name": "C & A Carbone, Inc. v. Town of Clarkstown",
+    "year": 1994,
+    "citation": "511 U.S. 383 (1994)",
+    "holding": "A flow control ordinance requiring all solid waste within Clarkstown to be processed at a single, town-subsidized private transfer station violates the Dormant Commerce Clause. The ordinance 'hoards a local resource — solid waste — and the demand to get rid of it for the benefit of the preferred processing facility,' depriving out-of-state waste disposal companies of access to local demand.",
+    "significance": "Established that local processing/hoarding requirements constitute facial geographic discrimination under the Dormant Commerce Clause. A close 5-4 decision. Distinguished from United Haulers, where the facility was government-owned rather than a private processor subsidized by the town.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Facial Discrimination",
+      "Flow Control",
+      "Local Processing"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "united-haulers-v-oneida-herkimer",
+    "name": "United Haulers Association v. Oneida-Herkimer Solid Waste Management Authority",
+    "year": 2007,
+    "citation": "550 U.S. 330 (2007)",
+    "holding": "A flow control ordinance sending waste to a government-owned facility does not violate the Dormant Commerce Clause, even though it is functionally identical to the ordinance struck down in Carbone. The government-owned facility distinction is dispositive: the government is financing its own waste facility that provides a core governmental service.",
+    "significance": "Distinguished Carbone on the basis that the transfer station was government-owned rather than a private facility. Critically, this is not the market participant exception — the government is still regulating third parties through a general law. The distinction matters because in United Haulers the government entity is not seeking private profit but rather providing a core governmental service.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Flow Control",
+      "Government-Owned Facilities"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "west-lynn-creamery-v-healy",
+    "name": "West Lynn Creamery, Inc. v. Healy",
+    "year": 1994,
+    "citation": "512 U.S. 186 (1994)",
+    "holding": "Massachusetts's scheme taxing all milk sales (in-state and out-of-state) but distributing the tax proceeds exclusively to in-state milk producers violates the Dormant Commerce Clause. A non-discriminatory tax coupled with a discriminatory subsidy from the tax proceeds is functionally equivalent to a discriminatory tax.",
+    "significance": "Established the coupled tax-and-subsidy doctrine. Justice Scalia's concurrence provided an influential four-device typology: (1) higher taxes on out-of-state producers (unconstitutional); (2) flat tax with in-state exemption (unconstitutional — same as #1); (3) flat tax coupled with subsidy from the tax proceeds to in-state producers (unconstitutional — the coupling is the problem); (4) subsidy from general tax revenues (constitutional). The critical distinction between #3 and #4 is the coupling — whether there is a direct link between the tax and the subsidy.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Facial Discrimination",
+      "Discriminatory Taxation",
+      "Coupled Tax-and-Subsidy"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "maine-v-taylor",
+    "name": "Maine v. Taylor",
+    "year": 1986,
+    "citation": "477 U.S. 131 (1986)",
+    "holding": "Maine's ban on importation of non-Maine baitfish is constitutional despite being facially discriminatory. The lower court found that out-of-state baitfish carried parasites that Maine's baitfish did not, and there was no practical way to inspect at the border which fish had parasites. The law served a legitimate local purpose that could not be served by non-discriminatory means.",
+    "significance": "The sole recognized exception to the rule that facially discriminatory Dormant Commerce Clause laws are presumptively unconstitutional. The exception has been applied only once. The facts must be extreme — the state must show that non-discriminatory means cannot serve the legitimate local purpose.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Facial Discrimination",
+      "Baitfish Exception"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "hunt-v-washington-apple",
+    "name": "Hunt v. Washington State Apple Advertising Commission",
+    "year": 1977,
+    "citation": "432 U.S. 333 (1977)",
+    "holding": "North Carolina's law requiring apple containers to display only USDA grades (banning state-specific grades) violates the Dormant Commerce Clause. Although facially neutral, the law was found to discriminate against Washington's superior apple-grading system. The Pike factors — purported local benefits versus burden on interstate commerce — revealed that the law was really about protecting North Carolina's apple industry.",
+    "significance": "The paradigmatic case for 'Pike-like analysis' — using the Pike balancing factors not to perform a true balance but to 'smoke out' latent discrimination in a facially neutral law. Legislative history confirmed that North Carolina apple producers were responsible for the law's passage. Once discrimination is found through Pike-like analysis, the law is treated the same as if facially discriminatory — it is unconstitutional.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Pike-Like Analysis",
+      "Latent Discrimination"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "pike-v-bruce-church",
+    "name": "Pike v. Bruce Church, Inc.",
+    "year": 1970,
+    "citation": "397 U.S. 137 (1970)",
+    "holding": "When a statute regulates evenhandedly — without geographic discrimination — it will be upheld unless the burden imposed on interstate commerce is 'clearly excessive' in relation to the putative local benefits.",
+    "significance": "Established the Pike balancing test, which is the framework for evaluating non-discriminatory state laws under the Dormant Commerce Clause. The Pike test is used in two distinct ways: (1) Pike-like analysis to smoke out hidden discrimination (as in Hunt), and (2) true Pike balancing to weigh local benefits against interstate commerce burdens when no discrimination is present (as in Bibb and Kassel).",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Pike Balancing Test",
+      "Non-Discriminatory Laws"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "exxon-v-governor-of-maryland",
+    "name": "Exxon Corp. v. Governor of Maryland",
+    "year": 1978,
+    "citation": "437 U.S. 117 (1978)",
+    "holding": "Maryland's law prohibiting gas producers (like Exxon and Shell) from operating retail gas stations in Maryland does not violate the Dormant Commerce Clause. The law merely shifted market share from one set of out-of-state firms (vertically integrated producers) to another (interstate marketers like 7-Eleven). A change in market structure does not impermissibly burden interstate commerce.",
+    "significance": "Established the substantial burden threshold — the plaintiff must allege a substantial burden on interstate commerce before Pike balancing applies. Mere shifts in competitive structure among out-of-state firms are insufficient. Exxon became critical in the Ross analysis, where the Court debated whether California's pork law was distinguishable from the market-structure shift in Exxon.",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Substantial Burden Threshold",
+      "Non-Discriminatory Laws"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "national-pork-producers-v-ross",
+    "name": "National Pork Producers Council v. Ross",
+    "year": 2023,
+    "citation": "598 U.S. 356 (2023)",
+    "holding": "California's Proposition 12 requiring pork sold in California to come from humanely confined pigs does not violate the Dormant Commerce Clause. The plurality found no substantial burden on interstate commerce. Justice Barrett concurred but would hold that Pike balancing cannot be performed when the local benefits are moral (animal welfare) and the burdens are economic — the values are incommensurable.",
+    "significance": "The most recent major Dormant Commerce Clause case. Produced a fractured set of opinions. Six justices believe courts can perform Pike balancing on non-discriminatory laws; three disagree. Barrett's incommensurability problem — whether courts can balance moral benefits against economic costs — remains unresolved. The Roberts-Gorsuch disagreement about whether the facts went 'far beyond Exxon' provides the primary data points for analyzing whether a burden on interstate commerce is 'substantial.'",
+    "doctrineAreas": [
+      "Dormant Commerce Clause",
+      "Pike Balancing",
+      "Substantial Burden Threshold",
+      "Incommensurable Values"
+    ],
+    "keyQuote": ""
+  },
+  {
+    "id": "federal-preemption-framework",
+    "name": "Federal Preemption Framework (Supremacy Clause, Article VI)",
+    "year": null,
+    "citation": "U.S. Const. art. VI, cl. 2",
+    "holding": "Federal law preempts state law when Congress intends it. Four types exist: (1) Express preemption — the federal statute explicitly preempts state law on a subject; (2) Implied field preemption — federal regulation is so comprehensive it occupies the field (e.g., airplane noise, nuclear energy); (3) Implied conflict preemption — compliance with both federal and state law is physically impossible; (4) Implied substantial obstacle preemption — a state law substantially obstructs the purpose of the federal statute.",
+    "significance": "Preemption is 'maybe the most often encountered constitutional issue in practice.' The presumption against preemption is a canon of construction favoring coexistence of federal and state law unless Congress is clear. Preemption intersects critically with the Tenth Amendment in the cannabis context: preemption is a permissible federal tool (passing a federal law that displaces state law), while commandeering is not (ordering states to change their own laws). If the Tenth Amendment prohibits the federal government from ordering states to make cannabis illegal, federal law should not be read to preempt state regulation that actually restricts cannabis more than pure legalization would.",
+    "doctrineAreas": [
+      "Federal Preemption",
+      "Supremacy Clause",
+      "Federalism",
+      "Tenth Amendment"
+    ],
+    "keyQuote": ""
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "achievements": [
+    {
+      "id": "first-scenario-completed",
+      "title": "First Brief Filed",
+      "description": "Complete your first official scenario.",
+      "icon": "\ud83d\udcc4",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 1
+      }
+    },
+    {
+      "id": "first-campaign-node-cleared",
+      "title": "Campaign Underway",
+      "description": "Clear your first campaign node.",
+      "icon": "\ud83e\udded",
+      "rule": {
+        "type": "campaignClears",
+        "count": 1
+      }
+    },
+    {
+      "id": "three-star-performance",
+      "title": "Three-Star Analysis",
+      "description": "Earn 3 stars on any official scenario.",
+      "icon": "\u2b50",
+      "rule": {
+        "type": "anyScenarioStars",
+        "count": 3
+      }
+    },
+    {
+      "id": "five-scenarios-completed",
+      "title": "Five Opinions Issued",
+      "description": "Complete 5 official scenarios.",
+      "icon": "\ud83d\uddc2\ufe0f",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 5
+      }
+    },
+    {
+      "id": "ten-scenarios-completed",
+      "title": "Doctrinal Momentum",
+      "description": "Complete 10 official scenarios.",
+      "icon": "\ud83d\udcda",
+      "rule": {
+        "type": "completedScenarios",
+        "count": 10
+      }
+    },
+    {
+      "id": "executive-power-mastery",
+      "title": "Executive Power Mastery",
+      "description": "Average at least 85% across at least 3 Executive Power scenarios.",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "executive-power",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "federalism-mastery",
+      "title": "Federalism Mastery",
+      "description": "Average at least 85% across at least 3 Federalism scenarios.",
+      "icon": "\ud83d\uddfa\ufe0f",
+      "rule": {
+        "type": "regionMastery",
+        "regionId": "federalism",
+        "minCompleted": 3,
+        "minAveragePercent": 85
+      }
+    },
+    {
+      "id": "three-day-streak",
+      "title": "Three-Day Streak",
+      "description": "Play on 3 consecutive days.",
+      "icon": "\ud83d\udd25",
+      "rule": {
+        "type": "streakDays",
+        "count": 3
+      }
+    },
+    {
+      "id": "seven-day-streak",
+      "title": "Seven-Day Streak",
+      "description": "Play on 7 consecutive days.",
+      "icon": "\ud83c\udf1f",
+      "rule": {
+        "type": "streakDays",
+        "count": 7
+      }
+    },
+    {
+      "id": "complete-main-path",
+      "title": "Main Path Complete",
+      "description": "Finish every main-path campaign node.",
+      "icon": "\ud83d\udee4\ufe0f",
+      "rule": {
+        "type": "completeMainPath"
+      }
+    },
+    {
+      "id": "complete-every-scenario",
+      "title": "Constitutional Atlas",
+      "description": "Complete every official scenario in the library.",
+      "icon": "\ud83c\udfc6",
+      "rule": {
+        "type": "completeAllScenarios"
+      }
+    }
+  ]
+}
