@@ -158,26 +158,53 @@
 
     <section id="map-screen" class="screen hidden" aria-hidden="true" aria-labelledby="map-screen-title">
       <div class="map-layout">
-        <aside class="surface-card map-sidebar">
-          <div class="card-heading-row">
-            <h2 id="map-screen-title">Campaign Map</h2>
-            <span id="map-summary-count" class="pill-label">0/39 complete</span>
-          </div>
-          <p class="muted-copy">Progress through the doctrine map. Official clears award stars, XP, and unlock downstream nodes.</p>
-          <ul id="map-region-list" class="region-legend"></ul>
-          <div class="map-legend-key">
-            <span><i class="legend-dot legend-dot-locked"></i> Locked</span>
-            <span><i class="legend-dot legend-dot-unlocked"></i> Unlocked</span>
-            <span><i class="legend-dot legend-dot-mastered"></i> Mastered</span>
-          </div>
-        </aside>
+        <div class="map-main-column">
+          <section class="surface-card map-toolbar-card">
+            <div class="card-heading-row map-toolbar-heading">
+              <div>
+                <h2 id="map-screen-title">Campaign Map</h2>
+                <p class="muted-copy">Progress through the doctrine map. Official clears award stars, XP, and unlock downstream nodes.</p>
+              </div>
+            </div>
 
-        <section class="surface-card map-canvas-card">
-          <div id="map-canvas" class="map-canvas">
-            <svg id="map-svg-layer" class="map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
-            <div id="map-node-layer" class="map-node-layer"></div>
-          </div>
-        </section>
+            <div class="map-toolbar">
+              <div class="map-toolbar-group">
+                <label for="map-region-filter">Region</label>
+                <select id="map-region-filter">
+                  <option value="all">All Regions</option>
+                </select>
+              </div>
+
+              <div class="map-toolbar-group">
+                <label class="toggle-row" for="map-emphasize-toggle">
+                  <span>Highlight related nodes</span>
+                  <input id="map-emphasize-toggle" type="checkbox" checked />
+                </label>
+              </div>
+
+              <div class="map-toolbar-summary">
+                <span id="map-summary-count" class="pill-label">0/39 complete</span>
+              </div>
+            </div>
+
+            <details class="map-legend-details">
+              <summary>Region Progress</summary>
+              <ul id="map-region-list" class="region-legend"></ul>
+              <div class="map-legend-key">
+                <span><i class="legend-dot legend-dot-locked"></i> Locked</span>
+                <span><i class="legend-dot legend-dot-unlocked"></i> Unlocked</span>
+                <span><i class="legend-dot legend-dot-mastered"></i> Mastered</span>
+              </div>
+            </details>
+          </section>
+
+          <section class="surface-card map-canvas-card">
+            <div id="map-canvas" class="map-canvas">
+              <svg id="map-svg-layer" class="map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+              <div id="map-node-layer" class="map-node-layer"></div>
+            </div>
+          </section>
+        </div>
 
         <aside class="surface-card map-detail-panel">
           <div class="card-heading-row">
@@ -185,6 +212,8 @@
             <span id="map-practice-only-label" class="pill-label hidden"></span>
           </div>
           <p id="map-selected-meta" class="muted-copy">Doctrine · Branch · Difficulty</p>
+          <p id="map-selected-region" class="muted-copy"></p>
+          <p id="map-selected-requirements" class="muted-copy"></p>
           <div class="detail-stat-grid">
             <div>
               <span>Status</span>

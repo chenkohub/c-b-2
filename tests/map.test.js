@@ -29,12 +29,34 @@ const scenarioCatalog = [
 function mountMapShell() {
   const root = document.getElementById('fixture-root');
   root.innerHTML = `
-    <div id="map-summary-count"></div>
-    <ul id="map-region-list"></ul>
+    <div class="map-toolbar">
+      <div class="map-toolbar-group">
+        <label for="map-region-filter">Region</label>
+        <select id="map-region-filter">
+          <option value="all">All Regions</option>
+        </select>
+      </div>
+      <div class="map-toolbar-group">
+        <label class="toggle-row" for="map-emphasize-toggle">
+          <span>Highlight related nodes</span>
+          <input id="map-emphasize-toggle" type="checkbox" checked />
+        </label>
+      </div>
+      <div class="map-toolbar-summary">
+        <span id="map-summary-count"></span>
+      </div>
+    </div>
+    <details class="map-legend-details">
+      <summary>Region Progress</summary>
+      <ul id="map-region-list"></ul>
+      <div class="map-legend-key"></div>
+    </details>
     <svg id="map-svg-layer"></svg>
     <div id="map-node-layer"></div>
     <div id="map-selected-title"></div>
     <div id="map-selected-meta"></div>
+    <div id="map-selected-region"></div>
+    <div id="map-selected-requirements"></div>
     <div id="map-selected-status"></div>
     <div id="map-selected-rewards"></div>
     <div id="map-selected-hint"></div>
@@ -77,6 +99,22 @@ test('Map node state classes render correctly.', async () => {
   assert(activeNode.classList.contains('is-active'), 'Current campaign node should be active.');
 });
 
+test('Selected nodes show labels while unrelated side-path nodes stay hidden.', async () => {
+  mountMapShell();
+  __testHooks.clear();
+  await renderCampaignMap({ profile: baseProfile(), scenarioCatalog, onPlay: () => {}, onViewInLibrary: () => {} });
+
+  const selectableNode = document.querySelector('[data-node-id="scenario_006"]');
+  selectableNode.click();
+  await wait(60);
+
+  const selectedNode = document.querySelector('[data-node-id="scenario_006"]');
+  const unrelatedNode = document.querySelector('[data-node-id="scenario_009"]');
+
+  assert(selectedNode.classList.contains('show-label'), 'Selected nodes should surface their label.');
+  assert(!unrelatedNode.classList.contains('show-label'), 'Unrelated non-main-path nodes should keep labels hidden.');
+});
+
 test('Selecting a node updates the sidebar detail panel.', async () => {
   mountMapShell();
   __testHooks.clear();
@@ -84,10 +122,51 @@ test('Selecting a node updates the sidebar detail panel.', async () => {
 
   const activeNode = document.querySelector('[data-node-id="ins-v-chadha-legislative-veto"]');
   activeNode.click();
-  await wait(40);
+  await wait(60);
 
   equal(document.getElementById('map-selected-title').textContent, 'The Legislative Veto Showdown');
   assert(document.getElementById('map-selected-status').textContent.includes('Active') || document.getElementById('map-selected-status').textContent.includes('Unlocked'), 'Sidebar status should update for the selected node.');
+  assert(document.getElementById('map-selected-region').textContent.includes('Region:'), 'Sidebar should include region context.');
+  assert(document.getElementById('map-selected-requirements').textContent.length > 0, 'Sidebar should include requirement context.');
+});
+
+test('Region focus dims out-of-region nodes.', async () => {
+  mountMapShell();
+  __testHooks.clear();
+  await renderCampaignMap({ profile: baseProfile(), scenarioCatalog, onPlay: () => {}, onViewInLibrary: () => {} });
+
+  const regionFilter = document.getElementById('map-region-filter');
+  regionFilter.value = 'executive-power';
+  regionFilter.dispatchEvent(new Event('change', { bubbles: true }));
+  await wait(60);
+
+  const executiveNode = document.querySelector('[data-node-id="youngstown-steel-seizure"]');
+  const administrativeNode = document.querySelector('[data-node-id="ins-v-chadha-legislative-veto"]');
+
+  assert(!executiveNode.classList.contains('is-dimmed'), 'Focused-region nodes should stay emphasized.');
+  assert(administrativeNode.classList.contains('is-dimmed'), 'Out-of-region nodes should be dimmed after filtering.');
+});
+
+test('Selected nodes highlight adjacent edges.', async () => {
+  mountMapShell();
+  __testHooks.clear();
+  await renderCampaignMap({ profile: baseProfile(), scenarioCatalog, onPlay: () => {}, onViewInLibrary: () => {} });
+
+  const node = document.querySelector('[data-node-id="scenario_006"]');
+  node.click();
+  await wait(60);
+
+  equal(document.querySelectorAll('.campaign-edge.is-connected').length, 2, 'The selected side-path node should emphasize its parent and child edges.');
+});
+
+test('Nodes render pin markup instead of star text blocks.', async () => {
+  mountMapShell();
+  __testHooks.clear();
+  await renderCampaignMap({ profile: baseProfile(), scenarioCatalog, onPlay: () => {}, onViewInLibrary: () => {} });
+
+  const node = document.querySelector('[data-node-id="youngstown-steel-seizure"]');
+  assert(node.querySelector('.campaign-node-dot'), 'Node pins should render a compact dot.');
+  assert(!node.querySelector('.campaign-node-stars'), 'Legacy star text blocks should not render inside nodes.');
 });
 
 test('Completed nodes unlock expected children on the map.', async () => {
@@ -104,4 +183,15 @@ test('Completed nodes unlock expected children on the map.', async () => {
 
   const childNode = document.querySelector('[data-node-id="ins-v-chadha-legislative-veto"]');
   assert(childNode.classList.contains('is-unlocked'), 'Unlocked child node should render with the unlocked class.');
+});
+
+test('computeNodeState marks sandbox-only scenarios without changing unlock state.', () => {
+  const node = {
+    id: 'scenario_006',
+    scenarioId: 'scenario_006'
+  };
+
+  const state = computeNodeState(baseProfile(), node, { allowSandboxPractice: true });
+  assert(state.practiceOnly, 'Locked nodes should be marked practice-only when sandbox is enabled.');
+  assert(!state.unlocked, 'Practice-only nodes should remain locked for campaign progression.');
 });
